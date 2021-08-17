@@ -1,0 +1,1223 @@
+/*-----------------------------------------------------------------------------------
+	AmosSeriesApp
+	About: A shiny new Blocs website.
+	Author: 吴昱珂
+	Version: 1.0
+	Built with Blocs
+-----------------------------------------------------------------------------------*/
+body{
+	margin:0;
+	padding:0;
+    background:#FFFFFF;
+    overflow-x:hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.page-container{overflow: hidden;} /* Prevents unwanted scroll space when scroll FX used. */
+a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent blue selection glow on Chrome and Safari */
+a:hover{text-decoration: none; cursor:pointer;}
+
+
+/* Preloader */
+
+.page-preloader{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;animation-name: preloader-fade;animation-delay: 2s;animation-duration: 0.5s;animation-fill-mode: both;}
+.preloader-complete{animation-delay:0.1s;}
+@keyframes preloader-fade {0% {opacity: 1;visibility: visible;}100% {opacity: 0;visibility: hidden;}}
+
+/* = Web Fonts
+-------------------------------------------------------------- */
+
+@font-face {
+	font-family:'GenJyuuGothicX-Medium';
+	src: url('./fonts/GenJyuuGothicX-Medium/GenJyuuGothicX-Medium.ttf');
+	src: url('./fonts/GenJyuuGothicX-Medium/GenJyuuGothicX-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'GenJyuuGothicX-Normal';
+	src: url('./fonts/GenJyuuGothicX-Normal/GenJyuuGothicX-Normal.ttf');
+	src: url('./fonts/GenJyuuGothicX-Normal/GenJyuuGothicX-Normal.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'ARTianniuB5-Bold';
+	src: url('(null)');
+	src: url('(null)') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'Abel-Regular';
+	src: url('./fonts/Abel-Regular/Abel-Regular.ttf');
+	src: url('./fonts/Abel-Regular/Abel-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* = Blocs
+-------------------------------------------------------------- */
+
+.bloc{
+	width:100%;
+	clear:both;
+	background: 50% 50% no-repeat;
+	padding:0 20px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position:relative;
+	display:flex;
+}
+.bloc .container{
+	padding-left:0;
+	padding-right:0;
+}
+
+
+/* Sizes */
+
+.bloc-lg{
+	padding:100px 20px;
+}
+.bloc-md{
+	padding:50px 20px;
+}
+.bloc-sm{
+	padding:20px;
+}
+
+/* = Full Width Blocs 
+-------------------------------------------------------------- */
+
+.full-width-bloc{
+	padding-left:0;
+	padding-right:0;
+}
+.full-width-bloc .row{
+	margin-left:0;
+	margin-right:0;
+}
+.full-width-bloc .container{
+	width:100%;
+	max-width:100%!important;
+}
+.full-width-bloc .carousel img{
+	width:100%;
+	height:auto;
+}
+
+
+/* Dark theme */
+
+.d-bloc{
+	color:rgba(255,255,255,.7);
+}
+.d-bloc button:hover{
+	color:rgba(255,255,255,.9);
+}
+.d-bloc .icon-round,.d-bloc .icon-square,.d-bloc .icon-rounded,.d-bloc .icon-semi-rounded-a,.d-bloc .icon-semi-rounded-b{
+	border-color:rgba(255,255,255,.9);
+}
+.d-bloc .divider-h span{
+	border-color:rgba(255,255,255,.2);
+}
+.d-bloc .a-btn,.d-bloc .navbar a, .d-bloc a .icon-sm, .d-bloc a .icon-md, .d-bloc a .icon-lg, .d-bloc a .icon-xl, .d-bloc h1 a, .d-bloc h2 a, .d-bloc h3 a, .d-bloc h4 a, .d-bloc h5 a, .d-bloc h6 a, .d-bloc p a{
+	color:rgba(255,255,255,.6);
+}
+.d-bloc .a-btn:hover,.d-bloc .navbar a:hover,.d-bloc a:hover .icon-sm, .d-bloc a:hover .icon-md, .d-bloc a:hover .icon-lg, .d-bloc a:hover .icon-xl, .d-bloc h1 a:hover, .d-bloc h2 a:hover, .d-bloc h3 a:hover, .d-bloc h4 a:hover, .d-bloc h5 a:hover, .d-bloc h6 a:hover, .d-bloc p a:hover{
+	color:rgba(255,255,255,1);
+}
+.d-bloc .navbar-toggle .icon-bar{
+	background:rgba(255,255,255,1);
+}
+.d-bloc .btn-wire,.d-bloc .btn-wire:hover{
+	color:rgba(255,255,255,1);
+	border-color:rgba(255,255,255,1);
+}
+.d-bloc .card{
+	color:rgba(0,0,0,.5);
+}
+.d-bloc .card button:hover{
+	color:rgba(0,0,0,.7);
+}
+.d-bloc .card icon{
+	border-color:rgba(0,0,0,.7);
+}
+.d-bloc .card .divider-h span{
+	border-color:rgba(0,0,0,.1);
+}
+.d-bloc .card .a-btn{
+	color:rgba(0,0,0,.6);
+}
+.d-bloc .card .a-btn:hover{
+	color:rgba(0,0,0,1);
+}
+.d-bloc .card .btn-wire, .d-bloc .card .btn-wire:hover{
+	color:rgba(0,0,0,.7);
+	border-color:rgba(0,0,0,.3);
+}
+
+
+/* Light theme */
+
+.d-bloc .card,.l-bloc{
+	color:rgba(0,0,0,.5);
+}
+.d-bloc .card button:hover,.l-bloc button:hover{
+	color:rgba(0,0,0,.7);
+}
+.l-bloc .icon-round,.l-bloc .icon-square,.l-bloc .icon-rounded,.l-bloc .icon-semi-rounded-a,.l-bloc .icon-semi-rounded-b{
+	border-color:rgba(0,0,0,.7);
+}
+.d-bloc .card .divider-h span,.l-bloc .divider-h span{
+	border-color:rgba(0,0,0,.1);
+}
+.d-bloc .card .a-btn,.l-bloc .a-btn,.l-bloc .navbar a,.l-bloc a .icon-sm, .l-bloc a .icon-md, .l-bloc a .icon-lg, .l-bloc a .icon-xl, .l-bloc h1 a, .l-bloc h2 a, .l-bloc h3 a, .l-bloc h4 a, .l-bloc h5 a, .l-bloc h6 a, .l-bloc p a{
+	color:rgba(0,0,0,.6);
+}
+.d-bloc .card .a-btn:hover,.l-bloc .a-btn:hover,.l-bloc .navbar a:hover, .l-bloc a:hover .icon-sm, .l-bloc a:hover .icon-md, .l-bloc a:hover .icon-lg, .l-bloc a:hover .icon-xl, .l-bloc h1 a:hover, .l-bloc h2 a:hover, .l-bloc h3 a:hover, .l-bloc h4 a:hover, .l-bloc h5 a:hover, .l-bloc h6 a:hover, .l-bloc p a:hover{
+	color:rgba(0,0,0,1);
+}
+.l-bloc .navbar-toggle .icon-bar{
+	color:rgba(0,0,0,.6);
+}
+.d-bloc .card .btn-wire,.d-bloc .card .btn-wire:hover,.l-bloc .btn-wire,.l-bloc .btn-wire:hover{
+	color:rgba(0,0,0,.7);
+	border-color:rgba(0,0,0,.3);
+}
+
+/* Row Margin Offsets */
+
+.voffset{
+	margin-top:30px;
+}
+
+
+/* = NavBar
+-------------------------------------------------------------- */
+
+/* Handle Multi Level Navigation */
+.dropdown-menu .dropdown-menu{
+	border:none}
+@media (min-width:576px){
+	
+.navbar-expand-sm .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-sm .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}}@media (min-width:768px){
+	.navbar-expand-md .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-md .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}}@media (min-width:992px){
+	.navbar-expand-lg .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-lg .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}
+}
+/* = Open menus on hover
+-------------------------------------------------------------- */
+@media (min-width: 992px){
+	.hover-open-submenu li:hover > .dropdown > .dropdown-menu, .hover-open-submenu .dropdown-menu > li:hover .dropdown-menu{
+	display: block;
+}
+.hover-open-submenu li .dropdown .dropdown-menu{
+	margin-top:0;
+}
+}
+/* = Bric adjustment margins
+-------------------------------------------------------------- */
+
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.mg-md{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+.mg-lg{
+	margin-top:10px;
+	margin-bottom:40px;
+}
+img.mg-sm,img.mg-md,img.mg-lg{
+	margin-top: 0;
+}
+img.mg-sm{
+	margin-bottom:10px;
+}
+img.mg-md{
+	margin-bottom:30px;
+}
+img.mg-lg{
+	margin-bottom:50px;
+}
+
+/* = Buttons
+-------------------------------------------------------------- */
+
+.btn-d,.btn-d:hover,.btn-d:focus{
+	color:#FFF;
+	background:rgba(0,0,0,.3);
+}
+
+/* Prevent ugly blue glow on chrome and safari */
+button{
+	outline: none!important;
+}
+
+.btn-sq{
+	border-radius: 0px;
+}
+.btn-style-none,.btn-style-none:hover,.btn-style-none:active,.btn-style-none:focus{
+	background:none;
+	box-shadow: none;
+	padding:0;
+}
+.a-block{
+	width:100%;
+	text-align:left;
+	display: inline-block;
+}
+.text-center .a-block{
+	text-align:center;
+}
+.btn .caret{
+	margin:0 0 0 5px}.dropdown a .caret{
+	margin:0 0 0 5px}.btn-dropdown .dropdown-menu .dropdown{
+	padding: 3px 20px;
+}
+
+/* = Icons
+-------------------------------------------------------------- */
+.icon-sm{
+	font-size:18px!important;
+}
+
+
+/* = Text & Icon Styles
+-------------------------------------------------------------- */
+.sm-shadow{
+	text-shadow:0 1px 2px rgba(0,0,0,.3);
+}
+
+/* = Lists
+-------------------------------------------------------------- */
+.list-horizontal-layout li{
+	display:inline-block;
+	margin:0 10px;
+}
+.list-sp-md li:last-child,.list-sp-lg li:last-child,.list-sp-xl li:last-child{
+	padding-bottom:0;
+}
+
+/* = Cards
+-------------------------------------------------------------- */
+.card-sq, .card-sq .card-header, .card-sq .card-footer{
+	border-radius:0;
+}
+.card-rd{
+	border-radius:30px;
+}
+.card-rd .card-header{
+	border-radius:29px 29px 0 0;
+}
+.card-rd .card-footer{
+	border-radius:0 0 29px 29px;
+}
+
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+	width:100%;
+	display:inline-block;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
+.dropdown-menu .divider-h,.dropdown-menu .divider-half{
+	padding:0;
+}
+
+
+
+.carousel-nav-icon{
+	fill: none;
+	stroke: #fff;
+	stroke-width: 2px;
+	fill-rule: evenodd;
+	stroke-linecap:round;
+}
+
+
+/* ScrollToTop button */
+
+.scrollToTop{
+	width:36px;
+	height:36px;
+	padding:5px;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	opacity:0;
+	z-index:999;
+	transition: all .3s ease-in-out;
+	pointer-events:none;
+}
+.showScrollTop{
+	opacity: 1;
+	pointer-events:all;
+}
+.scroll-to-top-btn-icon{
+	fill: none;
+	stroke: #fff;
+	stroke-width: 2px;
+	fill-rule: evenodd;
+	stroke-linecap:round;
+}
+
+/* = Custom Styling
+-------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6,p,label,.btn,a{
+	font-family:"Helvetica";
+}
+.container{
+	max-width:1140px;
+}
+.navbar-brand img{
+	width:206px;
+	height:42px;
+}
+.link-style{
+	font-size:40px;
+	font-family:"Josefin Sans";
+	letter-spacing:2px;
+	text-transform:capitalize;
+}
+.h1-style{
+	font-family:"GenJyuuGothicX-Normal";
+	font-size:49px;
+	width:97.6%;
+	margin-top:0px;
+	padding-bottom:0px;
+	margin-bottom:14px;
+	padding-top:20px;
+	max-width:1000px;
+}
+.h1-『小问题』-style{
+	font-family:"ARTianniuB5-Bold";
+	font-size:91px;
+	width:100%;
+	margin-bottom:27px;
+	margin-top:0px;
+	text-shadow:0px 5px 16px #6F6F6F;
+	max-width:1000px;
+}
+.bloc-margin-bottom{
+	margin-bottom:66px;
+	margin-top:37px;
+}
+.btn-style{
+	width:66.81%;
+	margin-top:21px;
+	padding-top:22px;
+	padding-bottom:22px;
+	font-weight:bold;
+	background-color:#0068DA;
+	max-width:500px;
+	border-radius:12px 12px 12px 12px;
+}
+.p-style{
+	font-size:18px;
+	margin-bottom:23px;
+	max-width:1000px;
+	padding-left:20px;
+	padding-right:20px;
+}
+.bloc-padding-top{
+	padding-top:0px;
+	padding-right:25px;
+}
+.bloc-0-padding-top{
+	padding-top:8px;
+}
+.bloc-42515-padding-top{
+	padding-top:6px;
+}
+.bloc-0-padding-right{
+	padding-right:16px;
+	padding-left:25px;
+}
+.h3-watchos-padding-top{
+	padding-top:0px;
+	margin-top:40px;
+}
+.h3-padding-top{
+	padding-top:1px;
+	margin-top:25px;
+}
+.p-bloc-2-style{
+	font-size:18px;
+}
+.p-3-style{
+	font-size:18px;
+}
+.h3-style{
+	font-size:32px;
+}
+.h3-专注于apple平台-style{
+	font-size:32px;
+}
+.h4- 减少用户的学习成本-padding-left{
+	padding-left:20px;
+}
+.h4- 聚焦解决核心的问题-padding-left{
+	padding-left:20px;
+}
+.row-margin-bottom{
+	padding-bottom:22px;
+}
+.bloc-padding-left{
+	padding-left:15px;
+	padding-right:15px;
+}
+.img-bloc-5-style{
+	width:336px;
+	border-radius:0px 0px 0px 0px;
+}
+.bloc-padding-bottom{
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+.amostime-title-style{
+	font-size:60px;
+	color:#0F7FD6!important;
+	line-height:72px;
+}
+.carh{
+	color:#FB0017!important;
+}
+.amoscar-title-style{
+	font-size:60px;
+	color:#FF3B30!important;
+	padding-top:0px;
+}
+.amoscar-carousel-style{
+	width:100%;
+	margin-left:0px;
+	box-shadow:0px 18px 44px #696969;
+}
+.p-bloc-6-style{
+	font-size:20px;
+	width:96.9%;
+	margin:0px 0px 0px 0px;
+}
+.row-padding-bottom{
+	padding-bottom:0px;
+	padding-right:20px;
+	margin-right:0px;
+	padding-left:20px;
+	margin-left:0px;
+}
+.h1-bloc-6-style{
+	font-size:60px;
+	line-height:72px;
+}
+.text-span-color{
+	color:#0091ff;
+}
+.container-div-margin-left{
+	padding-right:60px;
+	padding-left:60px;
+	margin-bottom:15px;
+}
+.amosreview-title-style{
+	font-size:60px;
+	line-height:72px;
+	color:#CC65FF!important;
+}
+.amosreview-subtitle-style{
+	margin-bottom:40px;
+}
+.amoscar-subtitle-style{
+	margin-bottom:40px;
+}
+.h3-margin-top{
+	margin-top:25px;
+}
+.h3-homepod-margin-top{
+	margin-top:24px;
+}
+.h3-macos-padding-top{
+	margin-top:11px;
+}
+.card-padding-bottom{
+	padding-bottom:22px;
+}
+.nav-label-style{
+	font-size:20px;
+	font-weight:normal;
+	color:transparent!important;
+	text-decoration:none;
+}
+.nav-button-style{
+	font-family:"GenJyuuGothicX-Medium";
+	font-size:24px;
+}
+.nav-botton-bg{
+	padding:10px 12px 10px 12px;
+}
+.btn-padding{
+	padding-top:18px;
+	padding-bottom:18px;
+}
+.device-icon-mac-style{
+	width:263px;
+}
+.devide-icon-ipad-style{
+	width:109px;
+}
+.device-icon-iphone-style{
+	width:151px;
+}
+.device-icon-watch-style{
+	width:76px;
+	margin-top:8px;
+}
+.feature-icon-style{
+	width:140px;
+	padding:5px 5px 5px 5px;
+}
+.bloc-design-padding-left{
+	padding:15px 15px 15px 20px;
+}
+.design-logo-style{
+	width:360px;
+	padding-bottom:20px;
+}
+.design-title-style{
+	font-weight:bold;
+	padding-bottom:10px;
+	padding-top:20px;
+	margin:20px 20px 20px 20px;
+}
+.design-list-style{
+	padding-left:0px;
+}
+.applist-title-style{
+	font-family:"Abel-Regular";
+	font-size:70px;
+	text-align:center;
+}
+.appstore-buttton-style{
+	width:240px;
+	margin-top:36px;
+}
+.amostime-carousel-style{
+	box-shadow:0px 13px 30px #535353;
+}
+.about-logo-style{
+	width:160px;
+}
+.amostime-col-style{
+	padding-left:20px;
+	padding-right:20px;
+}
+.amosreview-carousel-style{
+	box-shadow:0px 10px 25px #4C4C4C;
+}
+.about-title-style{
+	font-size:18px;
+}
+.list-style{
+	color:transparent!important;
+	background-color:transparent;
+	fill:transparent;
+}
+.bg01-style{
+	background-color:transparent;
+}
+
+/* = Colour
+-------------------------------------------------------------- */
+
+/* Background colour styles */
+
+.bgc-white-smoke{
+	background-color:#F4F5F5;
+}
+.bgc-black{
+	background-color:#000000;
+}
+
+/* Text colour styles */
+
+.tc-black{
+	color:rgba(0,0,0,0.701961)!important;
+}
+.tc-black-2{
+	color:rgba(0,0,0,0.70)!important;
+}
+.tc-white{
+	color:#FFFFFF!important;
+}
+
+/* Link colour styles */
+
+.ltc-black{
+	color:rgba(0,0,0,0.701961)!important;
+}
+.ltc-black:hover{
+	color:#000000!important;
+}
+.ltc-ruddy{
+	color:#FB0017!important;
+}
+.ltc-ruddy:hover{
+	color:#c90012!important;
+}
+.ltc-azure{
+	color:#007AFF!important;
+}
+.ltc-azure:hover{
+	color:#0062cc!important;
+}
+.ltc-medium-orchid{
+	color:#AF52DE!important;
+}
+.ltc-medium-orchid:hover{
+	color:#8c42b2!important;
+}
+
+/* Bloc image backgrounds */
+
+
+
+
+/* = Bloc Padding Multi Breakpoint
+-------------------------------------------------------------- */
+
+@media (min-width: 576px) {
+    .bloc-xxl-sm{padding:200px 20px;}
+    .bloc-xl-sm{padding:150px 20px;}
+    .bloc-lg-sm{padding:100px 20px;}
+    .bloc-md-sm{padding:50px 20px;}
+    .bloc-sm-sm{padding:20px;}
+    .bloc-no-padding-sm{padding:0 20px;}
+}
+@media (min-width: 768px) {
+    .bloc-xxl-md{padding:200px 20px;}
+    .bloc-xl-md{padding:150px 20px;}
+    .bloc-lg-md{padding:100px 20px;}
+    .bloc-md-md{padding:50px 20px;}
+    .bloc-sm-md{padding:20px 20px;}
+    .bloc-no-padding-md{padding:0 20px;}
+}
+@media (min-width: 992px) {
+    .bloc-xxl-lg{padding:200px 20px;}
+    .bloc-xl-lg{padding:150px 20px;}
+    .bloc-lg-lg{padding:100px 20px;}
+    .bloc-md-lg{padding:50px 20px;}
+    .bloc-sm-lg{padding:20px;}
+    .bloc-no-padding-lg{padding:0 20px;}
+}
+
+
+/* = Mobile adjustments 
+-------------------------------------------------------------- */
+@media (max-width: 1024px)
+{
+    .bloc.full-width-bloc, .bloc-tile-2.full-width-bloc .container, .bloc-tile-3.full-width-bloc .container, .bloc-tile-4.full-width-bloc .container{
+        padding-left: 0; 
+        padding-right: 0;  
+    }
+}
+@media (max-width: 991px)
+{
+    .container{width:100%;}
+    .bloc{padding-left: constant(safe-area-inset-left);padding-right: constant(safe-area-inset-right);} /* iPhone X Notch Support*/
+    .bloc-group, .bloc-group .bloc{display:block;width:100%;}
+}
+@media (max-width: 767px)
+{
+    .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
+        padding-left:0;padding-right:0;
+    }
+    .btn-dwn{
+       display:none; 
+    }
+    .voffset{
+        margin-top:5px;
+    }
+    .voffset-md{
+        margin-top:20px;
+    }
+    .voffset-lg{
+        margin-top:30px;
+    }
+    form{
+        padding:5px;
+    }
+    .close-lightbox{
+        display:inline-block;
+    }
+    .blocsapp-device-iphone5{
+	   background-size: 216px 425px;
+	   padding-top:60px;
+	   width:216px;
+	   height:425px;
+    }
+    .blocsapp-device-iphone5 img{
+	   width: 180px;
+	   height: 320px;
+    }
+}
+
+@media (max-width: 991px){
+	.titleimg-style{
+		padding:20px 12px 12px 12px;
+	}
+	.title-image-style{
+	}
+	.device-icon-mac-style{
+		width:263px;
+	}
+	.devide-icon-ipad-style{
+		width:109px;
+	}
+	.device-icon-iphone-style{
+		width:136px;
+	}
+	.device-icon-watch-style{
+		width:72px;
+	}
+	.bloc-padding-top{
+		padding-top:0px;
+	}
+	.feature-icon-style{
+		width:140px;
+		padding:5px 5px 5px 5px;
+	}
+	.feature-message-style{
+		height:100px;
+	}
+	.design-device-style{
+		padding-bottom:30px;
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.img-style{
+		width:374px;
+	}
+	.applist-title-style{
+		font-family:"Abel-Regular";
+		font-size:60px;
+		text-align:center;
+	}
+	.amoscar-title-style{
+		font-size:55px;
+		text-align:center;
+	}
+	.amoscar-subtitle-style{
+		font-size:24px;
+		margin-bottom:18px;
+		text-align:center;
+	}
+	.p-bloc-6-style{
+		font-size:16px;
+	}
+	.card-body-style{
+	}
+	.amoscar-carousel-style{
+		width:100%;
+		padding-left:0px;
+		margin-left:0px;
+	}
+	.bloc-padding-left{
+		padding-right:20px;
+		padding-left:20px;
+	}
+	.amostime-title-style{
+		text-align:center;
+	}
+	.amostime-subtitle-style{
+		text-align:center;
+	}
+	.appstore-buttton-style{
+		width:210px;
+		padding-top:0px;
+	}
+	.amostime-carousel-style{
+		box-shadow:0px 11px 24px #5D5D5D;
+	}
+	.container-div-margin-left{
+		padding-left:60px;
+		padding-right:60px;
+		margin-bottom:0px;
+		padding-bottom:20px;
+	}
+	.amosreview-title-style{
+		font-size:55px;
+		color:#CC65FF!important;
+		text-align:center;
+	}
+	.amosreview-subtitle-style{
+		font-size:21px;
+		text-align:center;
+		margin-bottom:20px;
+	}
+	.h3-margin-bottom{
+		padding-bottom:20px;
+	}
+	.bloc-amosreview-padding-left{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	.quote-message-style{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.link-style{
+	}
+	.quote-author-style{
+	}
+	.social-icon-style{
+		padding-left:10px;
+	}
+	.about-title-style{
+		font-size:18px;
+	}
+	.about-subtitle-style{
+		font-size:16px;
+		padding-top:3px;
+	}
+	.about-logo-style{
+		width:160px;
+		margin-left:10px;
+	}
+	.platform-row-style{
+		margin-left:0px;
+		margin-right:0px;
+	}
+	.amosreview-image-col-style{
+	}
+	.amosreview-carousel-style{
+		margin-top:20px;
+	}
+	.row-padding-bottom{
+		padding:0px 0px 0px 0px;
+	}
+	
+}
+
+@media (max-width: 767px){
+	.title-image-style{
+	}
+	.p-style{
+		padding-left:12px;
+		padding-right:12px;
+	}
+	.h1-style{
+		padding-left:12px;
+		padding-right:12px;
+	}
+	.h1-『小问题』-style{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	.design-list-style{
+		padding-left:0px;
+	}
+	.applist-title-style{
+		font-size:50px;
+		text-align:center;
+	}
+	.device-icon-mac-style{
+		width:130px;
+	}
+	.devide-icon-ipad-style{
+		width:70px;
+	}
+	.device-icon-iphone-style{
+		width:80px;
+	}
+	.device-icon-watch-style{
+		width:50px;
+	}
+	.h3-macos-padding-top{
+		margin-top:30px;
+	}
+	.h3-margin-top{
+		margin-top:18px;
+	}
+	.h3-watchos-padding-top{
+		margin-top:20px;
+	}
+	.h3-homepod-margin-top{
+		margin-top:23px;
+	}
+	.h3-padding-top{
+		margin-top:23px;
+	}
+	.platform-row-style{
+		margin-right:0px;
+		margin-left:0px;
+	}
+	.feature-row-style{
+		margin-top:15px;
+	}
+	.feature-icon-style{
+		width:110px;
+	}
+	.feature-icon-column-style{
+	}
+	.feature-message-style{
+		height:70px;
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.amoscar-image-col-style{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.amoscar-carousel-style{
+		margin-left:10px;
+		width:100%;
+		margin-right:0px;
+		padding-right:0px;
+		margin-top:20px;
+	}
+	.amoscar-title-style{
+		font-size:40px;
+		margin-bottom:12px;
+		line-height:55px;
+	}
+	.amoscar-subtitle-style{
+		font-size:18px;
+		margin-bottom:12px;
+	}
+	.p-bloc-6-style{
+		font-size:13px;
+	}
+	.appstore-buttton-style{
+		width:150px;
+		margin-top:20px;
+	}
+	.amostime-title-style{
+		font-size:50px;
+		line-height:60px;
+	}
+	.container-div-margin-left{
+		padding-right:40px;
+		padding-left:40px;
+	}
+	.amosreview-title-style{
+		font-size:40px;
+		margin-bottom:12px;
+		line-height:55px;
+	}
+	.amosreview-subtitle-style{
+		font-size:17px;
+		margin-bottom:12px;
+	}
+	.amosreview-image-col-style{
+		margin-left:0px;
+		padding:0px 0px 0px 0px;
+	}
+	.bloc-padding-left{
+		padding-left:30px;
+	}
+	.amosreview-carousel-style{
+		box-shadow:0px 10px 25px #4C4C4C;
+		margin-top:20px;
+	}
+	.card-body-style{
+	}
+	.amosreview-cardbody-style{
+	}
+	.quote-message-style{
+	}
+	.row-padding-bottom{
+		padding-right:0px;
+		padding-left:0px;
+	}
+	
+}
+
+@media (max-width: 575px){
+	.footer-link{
+		text-align:center;
+	}
+	.h1-style{
+		font-size:150%;
+		width:100%;
+	}
+	.h1-『小问题』-style{
+		font-size:300%;
+	}
+	.p-style{
+		font-size:16px;
+		width:100%;
+		opacity:1.0;
+	}
+	.btn-style{
+		height:17%;
+		width:100%;
+	}
+	.title-image-style{
+	}
+	.design-title-style{
+		min-width:230px;
+	}
+	.design-list-style{
+		min-width:250px;
+	}
+	.applist-title-style{
+		font-size:30px;
+	}
+	.device-icon-mac-style{
+		width:100px;
+	}
+	.devide-icon-ipad-style{
+		width:50px;
+	}
+	.h3-macos-padding-top{
+		font-size:20px;
+		margin-top:20px;
+	}
+	.h3-margin-top{
+		font-size:20px;
+	}
+	.h3-padding-top{
+		font-size:17px;
+		margin-top:25px;
+	}
+	.h3-watchos-padding-top{
+		font-size:17px;
+		margin-top:30px;
+	}
+	.h3-homepod-margin-top{
+		font-size:17px;
+		margin-top:20px;
+	}
+	.device-icon-watch-style{
+		width:30px;
+		margin-top:5px;
+	}
+	.h3-专注于apple平台-style{
+		font-size:27px;
+	}
+	.feature-message-style{
+		height:90px;
+		font-size:14px;
+	}
+	.amoscar-carousel-style{
+		width:100%;
+		margin:0px 0px 0px 0px;
+		padding:0px 0px 0px 0px;
+	}
+	.amoscar-title-style{
+		margin-top:36px;
+		font-size:40px;
+	}
+	.amoscar-subtitle-style{
+		font-size:18px;
+	}
+	.card-body-style{
+	}
+	.amostime-title-style{
+		font-size:40px;
+		margin-bottom:0px;
+		width:100%;
+		padding-top:0px;
+		padding-bottom:0px;
+		line-height:60px;
+	}
+	.amostime-subtitle-style{
+		font-size:18px;
+	}
+	.container-div-margin-left{
+		padding-right:5px;
+		padding-left:5px;
+	}
+	.amoscar-image-col-style{
+	}
+	.amosreview-subtitle-style{
+		font-size:18px;
+	}
+	.amosreview-cardbody-style{
+	}
+	.amosreview-carousel-style{
+		margin:20px 0px 0px 0px;
+		padding:0px 0px 0px 0px;
+	}
+	.quote-message-style{
+	}
+	.h3-quote-style{
+	}
+	.bloc-padding-right{
+		padding-right:0px;
+		padding-top:0px;
+		padding-left:0px;
+	}
+	.about-title-style{
+		margin-top:25px;
+	}
+	.about-subtitle-style{
+		text-align:center;
+	}
+	.about-logo-style{
+		width:200px;
+	}
+	.row-padding-bottom{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.bloc-padding-left{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.p-bloc-6-style{
+		width:100%;
+		margin-bottom:0px;
+	}
+	.amostime-col-style{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.bloc-amosreview-padding-left{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.amosreview-image-col-style{
+		margin:0px 0px 0px 0px;
+		padding:0px 0px 0px 0px;
+	}
+	.card-padding-bottom{
+		padding-bottom:10px;
+	}
+	
+}
+
