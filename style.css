@@ -588,10 +588,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .nav-botton-bg{
 	padding:10px 12px 10px 12px;
 }
-.btn-padding{
-	padding-top:18px;
-	padding-bottom:18px;
-}
 .device-icon-mac-style{
 	width:263px;
 }
@@ -1065,6 +1061,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		padding-right:0px;
 		padding-left:0px;
 	}
+	.btn-style{
+		text-align:center;
+		text-transform:none;
+		padding-top:18px;
+		padding-bottom:18px;
+	}
 	
 }
 
@@ -1087,6 +1089,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.btn-style{
 		height:17%;
 		width:100%;
+		padding-bottom:10px;
+		padding-top:10px;
 	}
 	.title-image-style{
 	}
@@ -1220,6 +1224,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.card-padding-bottom{
 		padding-bottom:10px;
+	}
+	.bloc-divider-b-fill{
+		fill:#7FDEE5;
 	}
 	
 }
