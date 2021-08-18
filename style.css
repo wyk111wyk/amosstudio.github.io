@@ -35,22 +35,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 @font-face {
-	font-family:'GenJyuuGothicX-Normal';
-	src: url('./fonts/GenJyuuGothicX-Normal/GenJyuuGothicX-Normal.ttf');
-	src: url('./fonts/GenJyuuGothicX-Normal/GenJyuuGothicX-Normal.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family:'ARTianniuB5-Bold';
-	src: url('(null)');
-	src: url('(null)') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
 	font-family:'Abel-Regular';
 	src: url('./fonts/Abel-Regular/Abel-Regular.ttf');
 	src: url('./fonts/Abel-Regular/Abel-Regular.ttf') format('truetype');
@@ -416,7 +400,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-transform:capitalize;
 }
 .h1-style{
-	font-family:"GenJyuuGothicX-Normal";
+	font-family:"Lato";
 	font-size:49px;
 	width:97.6%;
 	margin-top:0px;
@@ -424,15 +408,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-bottom:14px;
 	padding-top:20px;
 	max-width:1000px;
+	font-weight:300;
 }
 .h1-『小问题』-style{
-	font-family:"ARTianniuB5-Bold";
+	font-family:"Droid Sans";
 	font-size:91px;
 	width:100%;
 	margin-bottom:27px;
 	margin-top:0px;
-	text-shadow:0px 5px 16px #6F6F6F;
+	text-shadow:0px 8px 23px #929193;
 	max-width:1000px;
+	font-weight:700;
 }
 .bloc-margin-bottom{
 	margin-bottom:66px;
@@ -449,7 +435,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-radius:12px 12px 12px 12px;
 }
 .p-style{
-	font-size:18px;
+	font-size:20px;
 	margin-bottom:23px;
 	max-width:1000px;
 	padding-left:20px;
@@ -625,6 +611,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Abel-Regular";
 	font-size:70px;
 	text-align:center;
+	line-height:120px;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
 }
 .appstore-buttton-style{
 	width:240px;
@@ -833,6 +822,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		font-family:"Abel-Regular";
 		font-size:60px;
 		text-align:center;
+		line-height:100px;
+		margin:0px 0px 0px 0px;
+		padding:0px 0px 0px 0px;
 	}
 	.amoscar-title-style{
 		font-size:55px;
@@ -927,6 +919,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.row-padding-bottom{
 		padding:0px 0px 0px 0px;
 	}
+	.h1-style{
+		font-family:"Lato";
+		font-weight:300;
+	}
+	.h1-『小问题』-style{
+		text-shadow:0px 7px 19px #8D8C8E;
+	}
+	.p-style{
+		font-size:19px;
+	}
 	
 }
 
@@ -936,6 +938,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.p-style{
 		padding-left:12px;
 		padding-right:12px;
+		font-size:18px;
 	}
 	.h1-style{
 		padding-left:12px;
@@ -944,6 +947,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h1-『小问题』-style{
 		padding-left:20px;
 		padding-right:20px;
+		text-shadow:0px 5px 21px #979797;
 	}
 	.design-list-style{
 		padding-left:0px;
@@ -951,6 +955,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.applist-title-style{
 		font-size:50px;
 		text-align:center;
+		line-height:80px;
+		margin:0px 0px 0px 0px;
+		padding:0px 0px 0px 0px;
 	}
 	.device-icon-mac-style{
 		width:130px;
@@ -1077,9 +1084,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h1-style{
 		font-size:150%;
 		width:100%;
+		font-family:"Lato";
+		font-weight:300;
 	}
 	.h1-『小问题』-style{
 		font-size:300%;
+		font-family:"Droid Sans";
+		text-shadow:0px 5px 21px #979797;
+		padding:0px 0px 0px 0px;
 	}
 	.p-style{
 		font-size:16px;
@@ -1102,6 +1114,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.applist-title-style{
 		font-size:30px;
+		line-height:50px;
+		padding-top:0px;
+		margin-top:0px;
+		margin-bottom:0px;
+		padding-bottom:0px;
 	}
 	.device-icon-mac-style{
 		width:100px;
@@ -1167,6 +1184,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.container-div-margin-left{
 		padding-right:5px;
 		padding-left:5px;
+		padding-bottom:0px;
 	}
 	.amoscar-image-col-style{
 	}
@@ -1223,7 +1241,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		padding:0px 0px 0px 0px;
 	}
 	.card-padding-bottom{
-		padding-bottom:10px;
+		padding-bottom:0px;
 	}
 	.bloc-divider-b-fill{
 		fill:#7FDEE5;
