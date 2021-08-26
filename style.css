@@ -427,13 +427,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:37px;
 }
 .btn-style{
-	width:66.81%;
 	margin-top:21px;
 	padding-top:22px;
 	padding-bottom:22px;
 	font-weight:bold;
 	background-color:#0068DA;
-	max-width:500px;
+	max-width:450px;
+	width:100%;
+	height:66px;
 	border-radius:12px 12px 12px 12px;
 }
 .p-style{
@@ -1121,6 +1122,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		height:450px;
 		margin-bottom:15px;
 	}
+	.btn-style{
+		height:66px;
+	}
 	
 }
 
@@ -1267,6 +1271,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		text-transform:none;
 		padding-top:18px;
 		padding-bottom:18px;
+		height:60px;
 	}
 	.header-title01-style{
 		font-size:120px;
@@ -1315,10 +1320,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		opacity:1.0;
 	}
 	.btn-style{
-		height:17%;
 		width:100%;
 		padding-bottom:10px;
 		padding-top:10px;
+		height:50px;
+		margin-top:8px;
 	}
 	.title-image-style{
 	}
