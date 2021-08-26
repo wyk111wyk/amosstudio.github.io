@@ -413,14 +413,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:300;
 }
 .h1-title-style{
-	font-family:"Droid Sans";
+	font-family:"Abel-Regular";
 	font-size:91px;
 	width:100%;
 	margin-bottom:27px;
 	margin-top:0px;
 	text-shadow:0px 8px 23px #929193;
 	max-width:1000px;
-	font-weight:900;
+	font-weight:bold;
 }
 .bloc-margin-bottom{
 	margin-bottom:66px;
@@ -558,7 +558,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:24px;
 }
 .h3-macos-padding-top{
-	margin-top:11px;
+	margin-top:17px;
 }
 .card-padding-bottom{
 	padding-bottom:22px;
@@ -650,7 +650,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:18px;
 }
 .bloc-title-style{
-	font-weight:600;
+	font-weight:bold;
 	font-size:50px;
 }
 .header-message-style{
@@ -760,7 +760,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	fill:#000000;
 }
 .amostime-feature-row-style{
-	height:280px;
+	height:240px;
 }
 
 /* = Colour
@@ -1102,7 +1102,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		font-size:20px;
 	}
 	.app-feature-row-style{
-		height:330681198708230033px;
+		height:330px;
 	}
 	.header-subtitle-style{
 		text-align:left;
@@ -1114,7 +1114,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		color:#232323!important;
 	}
 	.amostime-feature-row-style{
-		height:430px;
+		height:450px;
 		margin-bottom:15px;
 	}
 	
@@ -1413,7 +1413,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		padding-right:0px;
 		padding-left:0px;
 	}
-	.bloc-padding-right{
+	.connect-social-icon-style{
 		padding-right:0px;
 		padding-top:0px;
 		padding-left:0px;
