@@ -428,13 +428,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .btn-style{
 	margin-top:21px;
-	padding-top:22px;
-	padding-bottom:22px;
 	font-weight:bold;
 	background-color:#0068DA;
 	max-width:450px;
 	width:100%;
 	height:66px;
+	font-size:23px;
+	padding:15px 15px 15px 15px;
 	border-radius:12px 12px 12px 12px;
 }
 .p-style{
@@ -1124,6 +1124,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.btn-style{
 		height:66px;
+		font-size:20px;
+		padding:20px 20px 20px 20px;
 	}
 	
 }
@@ -1269,9 +1271,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.btn-style{
 		text-align:center;
 		text-transform:none;
-		padding-top:18px;
-		padding-bottom:18px;
 		height:60px;
+		padding:15px 15px 15px 15px;
 	}
 	.header-title01-style{
 		font-size:120px;
