@@ -637,6 +637,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .about-title-style{
 	font-size:18px;
+	font-weight:bold;
 }
 .list-style{
 	color:transparent!important;
@@ -761,6 +762,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .amostime-feature-row-style{
 	height:240px;
+}
+.about-subtitle-style:hover{
+	text-decoration:underline!important;
 }
 
 /* = Colour
@@ -1472,10 +1476,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		font-size:26px;
 	}
 	.appdetail-feature-message-style{
-		font-size:19px;
+		font-size:18px;
+		margin-bottom:25px;
 	}
 	.appdetail-feature-list-style{
 		font-size:20px;
+		margin-bottom:15px;
 	}
 	.appdetail-feature-image-style{
 		padding:0px 0px 0px 0px;
@@ -1501,6 +1507,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		height:460px;
 		margin-top:25px;
 		margin-bottom:10px;
+	}
+	.header-message-style{
+		font-size:18px;
+	}
+	.appdetail-feature-subtitle-style{
+		font-size:22px;
+	}
+	.bloc-title-style{
+		font-size:40px;
 	}
 	
 }
