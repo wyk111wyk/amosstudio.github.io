@@ -27,14 +27,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 -------------------------------------------------------------- */
 
 @font-face {
-	font-family:'GenJyuuGothicX-Medium';
-	src: url('./fonts/GenJyuuGothicX-Medium/GenJyuuGothicX-Medium.ttf');
-	src: url('./fonts/GenJyuuGothicX-Medium/GenJyuuGothicX-Medium.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
 	font-family:'Abel-Regular';
 	src: url('./fonts/Abel-Regular/Abel-Regular.ttf');
 	src: url('./fonts/Abel-Regular/Abel-Regular.ttf') format('truetype');
@@ -180,6 +172,12 @@ a:hover{text-decoration: none; cursor:pointer;}
 .voffset{
 	margin-top:30px;
 }
+/* Dividers */
+
+.b-divider{
+	border-top:1px solid rgba(0,0,0,.1);
+	border-bottom:1px solid rgba(0,0,0,.1);
+}
 
 
 /* = NavBar
@@ -226,6 +224,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-sm{
 	margin-top:10px;
 	margin-bottom:5px;
@@ -292,6 +293,25 @@ button{
 	font-size:18px!important;
 }
 
+/* Image Frame */
+.img-frame,.img-frame-md,.img-frame-lg,.img-frame-rd,.img-frame-rd-md,.img-frame-rd-lg{
+	background:#FFF;
+	border:1px solid rgba(0,0,0,0.1);
+	box-shadow:0 2px 2px rgba(0,0,0,0.05);
+	padding:4px;
+}
+.img-frame{
+	border-radius:3px;
+}
+.img-frame-md,.img-frame-lg{
+	border-radius:6px;
+}
+.img-frame-md,.img-frame-rd-md{
+	padding:8px;
+}
+.img-frame-lg,.img-frame-rd-lg{
+	padding:14px;
+}
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
@@ -324,24 +344,6 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
-/* = Dividers
--------------------------------------------------------------- */
-.divider-h{
-	padding:20px 0;
-	width:100%;
-	display:inline-block;
-}
-.divider-h span{
-	display: block;
-	border-top:1px solid transparent;
-}
-.divider-half{
-	width: 50%;
-	margin: 0 auto;
-}
-.dropdown-menu .divider-h,.dropdown-menu .divider-half{
-	padding:0;
-}
 
 
 
@@ -399,7 +401,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	letter-spacing:2px;
 	text-transform:capitalize;
 }
-.h1-style{
+.h1-subtitle-style{
 	font-family:"Lato";
 	font-size:49px;
 	width:97.6%;
@@ -410,7 +412,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	max-width:1000px;
 	font-weight:300;
 }
-.h1-『小问题』-style{
+.h1-title-style{
 	font-family:"Droid Sans";
 	font-size:91px;
 	width:100%;
@@ -418,7 +420,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:0px;
 	text-shadow:0px 8px 23px #929193;
 	max-width:1000px;
-	font-weight:700;
+	font-weight:900;
 }
 .bloc-margin-bottom{
 	margin-bottom:66px;
@@ -568,7 +570,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-decoration:none;
 }
 .nav-button-style{
-	font-family:"GenJyuuGothicX-Medium";
+	font-family:"Abel-Regular";
 	font-size:24px;
 }
 .nav-botton-bg{
@@ -621,6 +623,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .amostime-carousel-style{
 	box-shadow:0px 13px 30px #535353;
+	margin:20px 20px 20px 20px;
 }
 .about-logo-style{
 	width:160px;
@@ -646,44 +649,163 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .feature-message-style{
 	font-size:18px;
 }
+.bloc-title-style{
+	font-weight:600;
+	font-size:50px;
+}
+.header-message-style{
+	font-size:20px;
+}
+.header-title02-style{
+	font-family:"Abel-Regular";
+	font-size:70px;
+	text-decoration:none;
+	text-shadow:0px 4px 7px rgba(0,0,0,0.43);
+	margin:0px 0px 0px 0px;
+}
+.header-title01-style{
+	font-family:"Abril Fatface";
+	font-size:150px;
+	line-height:150px;
+	text-decoration:none;
+	text-shadow:0px 5px 8px rgba(0,0,0,0.54);
+	margin:0px 0px 0px 0px;
+}
+.header-image-style{
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:15px;
+}
+.amoscar-feature-title-style{
+	font-weight:600;
+	font-size:40px;
+	text-align:center;
+}
+.appdetail-feature-subtitle-style{
+	font-weight:400;
+	font-size:24px;
+	text-align:center;
+}
+.appdetail-feature-message-style{
+	font-weight:300;
+	font-size:18px;
+	margin-bottom:30px;
+	text-align:left;
+}
+.appdetail-feature-image-style{
+	padding:10px 10px 10px 10px;
+	border-radius:30px 30px 30px 30px;
+}
+.appdetail-feature-list-style{
+	font-weight:400;
+	font-size:22px;
+	margin-bottom:10px;
+}
+.appdetail-feature-listicon-style{
+	margin-right:15px;
+	color:#FF4F44!important;
+}
+.img-bloc-14-style{
+	border-radius:59px 59px 59px 59px;
+}
+.feature-title-style{
+	text-decoration:none;
+	font-weight:bold;
+}
+.app-feature-row-style{
+	height:200px;
+}
+.p-bloc-17-style{
+	font-size:18px;
+}
+.p-21-style{
+	font-size:18px;
+}
+.p-22-style{
+	font-size:18px;
+}
+.qaf-morebutton-stype{
+	margin-left:10px;
+	font-size:22px;
+	color:#419CFF!important;
+	margin-right:20px;
+}
+.img-header-style{
+	width:309px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.divider-style{
+	opacity:0.0;
+}
+.bloc-margin-top{
+	margin-top:15px;
+}
+.link-0-style{
+	text-decoration:none;
+}
+.link-0-style:hover{
+	text-decoration:underline!important;
+}
+.p-bloc-6-style:hover{
+	text-decoration:underline!important;
+}
+.quote-author-style{
+	font-weight:bold;
+}
+.footer-bloc-style{
+	background-color:#000000;
+}
+.bloc-divider-t-fill{
+	fill:#000000;
+}
+.amostime-feature-row-style{
+	height:280px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
 
 /* Background colour styles */
 
-.bgc-white-smoke{
-	background-color:#F4F5F5;
+.bgc-coral{
+	background-color:rgba(255,127,95,0.08);
 }
-.bgc-black{
-	background-color:#000000;
+.bgc-maya-blue{
+	background-color:rgba(120,164,255,0.13);
+}
+.bgc-light-fuchsia-pink{
+	background-color:rgba(242,132,255,0.18);
 }
 
 /* Text colour styles */
 
 .tc-black{
-	color:rgba(0,0,0,0.701961)!important;
-}
-.tc-black-2{
 	color:rgba(0,0,0,0.70)!important;
 }
-.tc-white{
-	color:#FFFFFF!important;
+.tc-red-ryb{
+	color:#FF291D!important;
+}
+.tc-azure{
+	color:#007AFF!important;
+}
+.tc-medium-orchid{
+	color:#AF52DE!important;
 }
 
 /* Link colour styles */
 
 .ltc-black{
-	color:rgba(0,0,0,0.701961)!important;
+	color:rgba(0,0,0,0.70)!important;
 }
 .ltc-black:hover{
 	color:#000000!important;
 }
-.ltc-ruddy{
-	color:#FB0017!important;
+.ltc-red-ryb{
+	color:#FF291D!important;
 }
-.ltc-ruddy:hover{
-	color:#c90012!important;
+.ltc-red-ryb:hover{
+	color:#cc2117!important;
 }
 .ltc-azure{
 	color:#007AFF!important;
@@ -696,6 +818,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-medium-orchid:hover{
 	color:#8c42b2!important;
+}
+
+/* Icon colour styles */
+
+.icon-azure{
+	color:#007AFF!important;
+	border-color:#007AFF!important;
 }
 
 /* Bloc image backgrounds */
@@ -861,6 +990,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.amostime-carousel-style{
 		box-shadow:0px 11px 24px #5D5D5D;
+		margin:0px 0px 0px 0px;
 	}
 	.container-div-margin-left{
 		padding-left:60px;
@@ -919,15 +1049,73 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.row-padding-bottom{
 		padding:0px 0px 0px 0px;
 	}
-	.h1-style{
+	.h1-subtitle-style{
 		font-family:"Lato";
 		font-weight:300;
 	}
-	.h1-『小问题』-style{
+	.h1-title-style{
 		text-shadow:0px 7px 19px #8D8C8E;
+		font-family:"Droid Sans";
 	}
 	.p-style{
 		font-size:19px;
+	}
+	.h3-watchos-padding-top{
+		margin-top:30px;
+	}
+	.bloc-title-style{
+		text-align:center;
+	}
+	.header-title01-style{
+		margin-left:30px;
+	}
+	.header-title02-style{
+		margin-left:30px;
+	}
+	.img-header-style{
+		margin-left:30px;
+	}
+	.header-image-style{
+		padding-left:10px;
+		padding-right:10px;
+	}
+	.appdetail-feature-subtitle-style{
+		font-size:24px;
+	}
+	.appdetail-feature-list-style{
+		font-size:22px;
+		padding-left:12px;
+	}
+	.appdetail-feature-image-style{
+		width:100%;
+		padding:10px 10px 10px 10px;
+	}
+	.appdetail-feature-image02-style{
+		margin-right:0px;
+		margin-left:0px;
+		width:100%;
+	}
+	.amoscar-feature-title-style{
+		margin-top:20px;
+	}
+	.appdetail-feature-message-style{
+		font-size:20px;
+	}
+	.app-feature-row-style{
+		height:330681198708230033px;
+	}
+	.header-subtitle-style{
+		text-align:left;
+	}
+	.bloc-margin-top{
+		margin-top:15px;
+	}
+	.divider-style{
+		color:#232323!important;
+	}
+	.amostime-feature-row-style{
+		height:430px;
+		margin-bottom:15px;
 	}
 	
 }
@@ -940,14 +1128,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		padding-right:12px;
 		font-size:18px;
 	}
-	.h1-style{
+	.h1-subtitle-style{
 		padding-left:12px;
 		padding-right:12px;
 	}
-	.h1-『小问题』-style{
+	.h1-title-style{
 		padding-left:20px;
 		padding-right:20px;
 		text-shadow:0px 5px 21px #979797;
+		font-family:"Droid Sans";
 	}
 	.design-list-style{
 		padding-left:0px;
@@ -978,10 +1167,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		margin-top:18px;
 	}
 	.h3-watchos-padding-top{
-		margin-top:20px;
+		margin-top:12px;
 	}
 	.h3-homepod-margin-top{
-		margin-top:23px;
+		margin-top:21px;
 	}
 	.h3-padding-top{
 		margin-top:23px;
@@ -990,8 +1179,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		margin-right:0px;
 		margin-left:0px;
 	}
-	.feature-row-style{
+	.app-feature-row-style{
 		margin-top:15px;
+		height:270px;
 	}
 	.feature-icon-style{
 		width:110px;
@@ -1074,6 +1264,28 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		padding-top:18px;
 		padding-bottom:18px;
 	}
+	.header-title01-style{
+		font-size:120px;
+	}
+	.header-title02-style{
+		font-size:60px;
+	}
+	.header-subtitle-style{
+		font-size:30px;
+	}
+	.bloc-bloc-17-margin-top{
+		margin-top:15px;
+	}
+	.bloc-header-padding-left{
+		padding-left:25px;
+		padding-right:25px;
+	}
+	.amostime-feature-row-style{
+		height:380px;
+	}
+	.feature-title-style{
+		margin-bottom:15px;
+	}
 	
 }
 
@@ -1081,13 +1293,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.footer-link{
 		text-align:center;
 	}
-	.h1-style{
+	.h1-subtitle-style{
 		font-size:150%;
 		width:100%;
 		font-family:"Lato";
 		font-weight:300;
 	}
-	.h1-『小问题』-style{
+	.h1-title-style{
 		font-size:300%;
 		font-family:"Droid Sans";
 		text-shadow:0px 5px 21px #979797;
@@ -1198,8 +1410,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		padding:0px 0px 0px 0px;
 	}
 	.quote-message-style{
-	}
-	.h3-quote-style{
+		padding-right:0px;
+		padding-left:0px;
 	}
 	.bloc-padding-right{
 		padding-right:0px;
@@ -1245,6 +1457,50 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.bloc-divider-b-fill{
 		fill:#7FDEE5;
+	}
+	.header-title01-style{
+		font-size:80px;
+		line-height:80px;
+	}
+	.header-title02-style{
+		font-size:40px;
+	}
+	.img-header-style{
+		width:200px;
+	}
+	.header-subtitle-style{
+		font-size:26px;
+	}
+	.appdetail-feature-message-style{
+		font-size:19px;
+	}
+	.appdetail-feature-list-style{
+		font-size:20px;
+	}
+	.appdetail-feature-image-style{
+		padding:0px 0px 0px 0px;
+	}
+	.amoscar-feature-title-style{
+		font-size:33px;
+	}
+	.header-image-style{
+		padding:0px 0px 0px 0px;
+	}
+	.h5-style{
+		width:100%;
+		font-size:px;
+	}
+	.bloc-header-padding-left{
+		padding-right:15px;
+		padding-left:15px;
+	}
+	.app-feature-row-style{
+		height:300px;
+	}
+	.amostime-feature-row-style{
+		height:460px;
+		margin-top:25px;
+		margin-bottom:10px;
 	}
 	
 }
