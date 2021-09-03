@@ -427,7 +427,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:37px;
 }
 .btn-style{
-	margin-top:21px;
 	font-weight:bold;
 	background-color:#0068DA;
 	max-width:450px;
@@ -571,10 +570,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-decoration:none;
 }
 .nav-button-style{
-	font-family:"Abel-Regular";
+	font-family:"Josefin Sans";
 	font-size:24px;
 }
 .nav-botton-bg{
+	font-family:"Abel-Regular";
 	padding:10px 12px 10px 12px;
 }
 .device-icon-mac-style{
@@ -766,6 +766,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .about-subtitle-style:hover{
 	text-decoration:underline!important;
+}
+.blog-button-style{
+	height:66px;
+	max-width:450px;
+	width:100%;
+	background-color:#FF9500;
+	font-size:23px;
+	font-weight:bold;
+	padding:15px 15px 15px 15px;
+	border-radius:12px 12px 12px 12px;
 }
 
 /* = Colour
@@ -1123,9 +1133,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		margin-bottom:15px;
 	}
 	.btn-style{
-		height:66px;
+		height:63px;
 		font-size:20px;
-		padding:20px 20px 20px 20px;
+		padding:17px 17px 17px 17px;
+	}
+	.blog-button-style{
+		font-size:20px;
 	}
 	
 }
@@ -1269,7 +1282,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		padding-left:0px;
 	}
 	.btn-style{
-		text-align:center;
 		text-transform:none;
 		height:60px;
 		padding:15px 15px 15px 15px;
@@ -1296,6 +1308,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.feature-title-style{
 		margin-bottom:15px;
 	}
+	.blog-button-style{
+		margin-top:20px;
+		height:60px;
+	}
 	
 }
 
@@ -1319,13 +1335,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		font-size:16px;
 		width:100%;
 		opacity:1.0;
+		margin-bottom:10px;
 	}
 	.btn-style{
 		width:100%;
 		padding-bottom:10px;
 		padding-top:10px;
 		height:50px;
-		margin-top:8px;
+		margin-top:0px;
 	}
 	.title-image-style{
 	}
@@ -1523,6 +1540,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.bloc-title-style{
 		font-size:40px;
+	}
+	.blog-button-style{
+		height:50px;
+		padding:10px 10px 10px 10px;
 	}
 	
 }
