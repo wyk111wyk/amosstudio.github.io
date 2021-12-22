@@ -519,6 +519,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .p-bloc-6-style{
 	font-size:20px;
 	width:96.9%;
+	color:#ffffff;
 	margin:0px 0px 0px 0px;
 }
 .row-padding-bottom{
@@ -620,7 +621,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .appstore-buttton-style{
 	width:240px;
-	margin-top:36px;
+	margin-top:20px;
 }
 .amostime-carousel-style{
 	box-shadow:0px 13px 30px #535353;
@@ -695,6 +696,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-align:left;
 }
 .appdetail-feature-image-style{
+	border-style:_popUpItemAction:;
 	padding:10px 10px 10px 10px;
 	border-radius:30px 30px 30px 30px;
 }
@@ -777,6 +779,33 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding:15px 15px 15px 15px;
 	border-radius:12px 12px 12px 12px;
 }
+.amosevelation-title-style{
+	font-size:60px;
+	line-height:72px;
+	color:#A2845E!important;
+}
+.linkdetail-button-style{
+	margin-top:20px;
+	width:22.64%;
+	padding-top:22px;
+	padding-bottom:22px;
+	background-color:#148EFF;
+	border-radius:15px 15px 15px 15px;
+}
+.btn-margin-top{
+	width:16.22%;
+}
+.linkdetail-button-style02{
+	padding-top:22px;
+	padding-bottom:22px;
+	width:33.43%;
+	margin-top:20px;
+	background-color:#148EFF;
+	border-radius:15px 15px 15px 15px;
+}
+.btn-padding{
+	width:16.22%;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -792,6 +821,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-light-fuchsia-pink{
 	background-color:rgba(242,132,255,0.08);
 }
+.bgc-pale-gold{
+	background-color:rgba(234,190,134,0.30);
+}
+.bgc-jonquil{
+	background-color:rgba(255,209,104,0.08);
+}
 
 /* Text colour styles */
 
@@ -806,6 +841,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tc-medium-orchid{
 	color:#AF52DE!important;
+}
+.tc-café-au-lait{
+	color:#A2845E!important;
 }
 
 /* Link colour styles */
@@ -1140,6 +1178,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.blog-button-style{
 		font-size:20px;
 	}
+	.linkdetail-button-style{
+		padding-bottom:15px;
+		width:31.12%;
+		padding-top:22px;
+		border-radius:10px 10px 10px 10px;
+	}
+	.linkdetail-button-style02{
+		padding-top:18px;
+		padding-bottom:18px;
+		width:47.38%;
+	}
 	
 }
 
@@ -1311,6 +1360,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.blog-button-style{
 		margin-top:20px;
 		height:60px;
+	}
+	.linkdetail-button-style{
+		padding-top:14px;
+		padding-bottom:7px;
+		width:31.07%;
+		border-radius:9px 9px 9px 9px;
+	}
+	.linkdetail-button-style02{
+		padding-top:10px;
+		padding-bottom:10px;
+		border-radius:12px 12px 12px 12px;
 	}
 	
 }
@@ -1544,6 +1604,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.blog-button-style{
 		height:50px;
 		padding:10px 10px 10px 10px;
+	}
+	.linkdetail-button-style{
+		width:54.44%;
+	}
+	.linkdetail-button-style02{
+		width:55.19%;
 	}
 	
 }

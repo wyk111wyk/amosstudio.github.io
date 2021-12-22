@@ -3,20 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Amos,AmosCar,AmosTime,AmosReview,iOS,Apple">
-    <meta name="description" content="小组件查看App Store的用户评论">
+    <meta name="description" content="点按地图任意地点查看海拔并收藏该地点">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?2504">
-	<link rel="stylesheet" type="text/css" href="style.css?8181">
-	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?4811">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?4973">
+	<link rel="stylesheet" type="text/css" href="style.css?8478">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?649">
 	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lato:100,300,700&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <title>Amos评论集</title>
+    <title>AmosElevation</title>
 
 
     
@@ -79,25 +79,28 @@
 <!-- navigation END -->
 
 <!-- header -->
-<div class="bloc tc-black bgc-light-fuchsia-pink l-bloc" id="header">
+<div class="bloc tc-black bgc-jonquil" id="header">
 	<div class="container bloc-md-md bloc-md-sm bloc-sm">
 		<div class="row">
 			<div class="align-self-center col-lg-12 col-md-12">
-				<img src="img/lazyload-ph.png" data-src="img/Device%20Combine%20AmosReview.webp" class="img-fluid mx-auto d-block header-image-style lazyload" alt="iOS Hero" />
+				<img src="img/lazyload-ph.png" data-src="img/Device%20Combine%20-%20Elevation.webp" class="img-fluid mx-auto d-block header-image-style lazyload" alt="iOS Hero" />
 			</div>
 			<div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1">
-				<h2 class="mg-md header-title01-style tc-medium-orchid">
+				<h2 class="mg-md header-title01-style tc-café-au-lait">
 					Amos
 				</h2>
-				<h2 class="mg-md header-title02-style tc-medium-orchid">
-					评论集
+				<h2 class="mg-md header-title02-style tc-café-au-lait">
+					查海拔
 				</h2>
-				<h1 class="mg-md header-subtitle-style">
-					小组件查看App Store的用户评论
+				<h1 class="header-subtitle-style mg-sm">
+					在世界地图上查随意地点的海拔高度
 				</h1>
+				<p>
+					* 需要用户去申请并填写相关的地图api
+				</p>
 				<p class="header-message-style">
-					通过自动抓取和更新用户在AppStore官方渠道的留言，第一时间进行反馈的处理、了解用户对应用的真实想法、将应用的设计思路和用户的真实使用相结合。也可以通过实时了解同类型应用或头部应用的用户评价，了解市场的需求变化，更好的满足用户需求。对于媒体、市场和开发人员都是很实用的小工具。
-				</p><a href="https://apps.apple.com/us/app/amosreview/id1544718542"><img src="img/lazyload-ph.png" data-src="img/appstore%20button.webp" class="img-fluid mx-auto d-block appstore-buttton-style lazyload" alt="appstore%20button" /></a>
+					这款应用是户外爱好者和探险家们的趁手工具。<br>在地图页面任意地点长按，就可以显示该地的精确海拔数据。不论是高山或是海底，而且根据季节可以自动计算温度直減率（Lapse rate of temperature），让登山者或露营家提前对目的地有所准备。根据选择的地点，应用会自动获取周边的兴趣点，让用户可以更准确的选取需要的目的地。地点精确到景点大门、卫生间、充电桩、停车场入口等常用的定位。<br>在地点的详情页面还会自动获取当前的天气，以及未来几天的天气预报。并且直接跳转常用的地图导航前往。<br>最棒的是对于喜爱的地点，用户可以进行收藏，并做简单的编辑和记录。相当于一个私人的地点收藏夹，而这一切可以无缝的通过iCloud进行同步。<br>
+				</p><a><img src="img/lazyload-ph.png" data-src="img/appstore%20button.webp" class="img-fluid mx-auto d-block appstore-buttton-style lazyload" alt="appstore%20button" /></a>
 			</div>
 		</div>
 	</div>
@@ -105,7 +108,7 @@
 <!-- header END -->
 
 <!-- features -->
-<div class="bloc bgc-light-fuchsia-pink l-bloc" id="features">
+<div class="bloc bgc-jonquil l-bloc" id="features">
 	<div class="container bloc-md-lg bloc-md-md bloc-sm-sm b-divider bloc-sm">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12">
@@ -119,36 +122,138 @@
 <!-- features END -->
 
 <!-- bloc-11 -->
-<div class="bloc tc-black bgc-light-fuchsia-pink l-bloc" id="bloc-11">
+<div class="bloc tc-black bgc-jonquil" id="bloc-11">
 	<div class="container bloc-md-lg bloc-sm-md bloc-sm-sm bloc-sm">
 		<div class="row">
 			<div class="align-self-center col-md-12 col-lg-4">
-				<img src="img/lazyload-ph.png" data-src="img/widget.webp" class="img-fluid mx-auto d-block appdetail-feature-image-style lazyload" alt="placeholder image" />
+				<img src="img/lazyload-ph.png" data-src="img/Feature01.webp" class="img-fluid mx-auto d-block appdetail-feature-image-style lazyload" alt="placeholder image" />
 			</div>
 			<div class="align-self-center col-md-12 col-lg-8">
-				<h2 class="mg-md amoscar-feature-title-style tc-medium-orchid">
-					小组件查看评论
+				<h2 class="mg-md amoscar-feature-title-style tc-café-au-lait">
+					点哪里查哪里
 				</h2>
 				<h3 class="mg-md appdetail-feature-subtitle-style tc-black">
-					关注任一已上架的应用，自动获取评论并实时更新
+					对全世界任意地点进行海拔高度的查询
 				</h3>
 				<p class="appdetail-feature-message-style">
-					使用全平台的小组件功能，搜索并关注任意地区、任意国别、任意应用，就可以在桌面上实时查看全世界用户的官方评价并及时处理。也可以将几款应用的评论在同一个小组件中显示查看，节省桌面空间。
+					以最简单的方式查询海拔高度，我就不理解了，这明明是件很简单的事情，为什么就没有一个软件来处理这个简单的需求呢？好了，现在有了。<br>
 				</p>
 				<ul class="list-unstyled">
 					<li>
 						<h3 class="mg-md appdetail-feature-list-style tc-black">
-							<span class="fa fa-clipboard-check none appdetail-feature-listicon-style"></span>可以在同一个小组件中混合查看多个应用的评论
+							<span class="fa fa-clipboard-check none appdetail-feature-listicon-style"></span>点击地图的任意地点查询海拔<br>
 						</h3>
 					</li>
 					<li>
 						<h3 class="mg-md appdetail-feature-list-style tc-black">
-							<span class="fa fa-clipboard-check none appdetail-feature-listicon-style"></span>可以根据星级和版本号进行筛选希望查看的评论
+							<span class="fa fa-clipboard-check none appdetail-feature-listicon-style"></span>方便的选择地点周边的兴趣点<br>
 						</h3>
 					</li>
 					<li>
 						<h3 class="mg-md appdetail-feature-list-style tc-black">
-							<span class="fa fa-clipboard-check none appdetail-feature-listicon-style"></span>可根据需要自由切换不同国家和地区的评论内容
+							<span class="fa fa-clipboard-check none appdetail-feature-listicon-style"></span>除了海拔还有经纬度、地址等地理信息<br>
+						</h3>
+						<h3 class="mg-md appdetail-feature-list-style tc-black">
+							<span class="fa fa-clipboard-check none appdetail-feature-listicon-style"></span>最上方会显示当前地点的实际海拔<br>
+						</h3>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="align-self-center col-md-12 col-lg-4">
+				<img src="img/lazyload-ph.png" data-src="img/Feature04.webp" class="img-fluid mx-auto d-block appdetail-feature-image-style lazyload" alt="placeholder image" />
+			</div>
+			<div class="align-self-center col-md-12 col-lg-8">
+				<h2 class="mg-md amoscar-feature-title-style tc-café-au-lait">
+					专属的网络收藏夹
+				</h2>
+				<h3 class="mg-md appdetail-feature-subtitle-style tc-black">
+					收藏喜爱的地点并同步和管理
+				</h3>
+				<p class="appdetail-feature-message-style">
+					不论是通过在地图上点按，或是搜索的方式找到了感兴趣的地点，就可以进行收藏，并添加相关的备注和关联信息。所有的收藏地点都会通过iCloud进行跨设备间的加密同步。
+				</p>
+				<ul class="list-unstyled">
+					<li>
+						<h3 class="mg-md appdetail-feature-list-style tc-black">
+							<span class="fa fa-clipboard-check none appdetail-feature-listicon-style"></span>可以设置是否在地图页面进行显示<br>
+						</h3>
+					</li>
+					<li>
+						<h3 class="mg-md appdetail-feature-list-style tc-black">
+							<span class="fa fa-clipboard-check none appdetail-feature-listicon-style"></span>地点会根据类型自动进行颜色的区分<br>
+						</h3>
+					</li>
+					<li>
+						<h3 class="mg-md appdetail-feature-list-style tc-black">
+							<span class="fa fa-clipboard-check none appdetail-feature-listicon-style"></span>无需任何设置就可以自动进行iCloud的同步<br>
+						</h3>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="align-self-center col-md-12 col-lg-4">
+				<img src="img/lazyload-ph.png" data-src="img/Feature03.webp" class="img-fluid mx-auto d-block appdetail-feature-image-style lazyload" alt="placeholder image" />
+			</div>
+			<div class="align-self-center col-md-12 col-lg-8">
+				<h2 class="mg-md amoscar-feature-title-style tc-café-au-lait">
+					关于地点的详细信息
+				</h2>
+				<h3 class="mg-md appdetail-feature-subtitle-style tc-black">
+					查询兴趣点的详细信息包括照片或联系方式
+				</h3>
+				<p class="appdetail-feature-message-style">
+					地点进入后可以查看图片、地理信息、商业信息、交通信息等多维度的信息。这些信息会进行实时的更新，让用户更好的了解地点的详情，最起码鉴别是否是我们要找的地方。
+				</p>
+				<ul class="list-unstyled">
+					<li>
+						<h3 class="mg-md appdetail-feature-list-style tc-black">
+							<span class="fa fa-clipboard-check none appdetail-feature-listicon-style"></span>借助真实信息判断地点的情况<br>
+						</h3>
+					</li>
+					<li>
+						<h3 class="mg-md appdetail-feature-list-style tc-black">
+							<span class="fa fa-clipboard-check none appdetail-feature-listicon-style"></span>大部分地点包含图片和联系方式<br>
+						</h3>
+					</li>
+					<li>
+						<h3 class="mg-md appdetail-feature-list-style tc-black">
+							<span class="fa fa-clipboard-check none appdetail-feature-listicon-style"></span>收藏后用户可以自由修改号码等信息<br>
+						</h3>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="align-self-center col-md-12 col-lg-4">
+				<img src="img/lazyload-ph.png" data-src="img/Feature02.webp" class="img-fluid mx-auto d-block appdetail-feature-image-style lazyload" alt="placeholder image" />
+			</div>
+			<div class="align-self-center col-md-12 col-lg-8">
+				<h2 class="mg-md amoscar-feature-title-style tc-café-au-lait">
+					专业地质和交通信息
+				</h2>
+				<h3 class="mg-md appdetail-feature-subtitle-style tc-black">
+					实时计算路线信息以及当地的天气预报
+				</h3>
+				<p class="appdetail-feature-message-style">
+					除了来自地图服务商的商业信息之外，软件会自动计算更多的实用信息。包括行程和路线，海拔带来的气温影响，以及当前和未来几天的天气预报。
+				</p>
+				<ul class="list-unstyled">
+					<li>
+						<h3 class="mg-md appdetail-feature-list-style tc-black">
+							<span class="fa fa-clipboard-check none appdetail-feature-listicon-style"></span>夏天想去高山露营？可以先看看海吧对温度的影响<br>
+						</h3>
+					</li>
+					<li>
+						<h3 class="mg-md appdetail-feature-list-style tc-black">
+							<span class="fa fa-clipboard-check none appdetail-feature-listicon-style"></span>需要立即出发前往目的地？可以先看看根据路况计算的交通讯息<br>
+						</h3>
+					</li>
+					<li>
+						<h3 class="mg-md appdetail-feature-list-style tc-black">
+							<span class="fa fa-clipboard-check none appdetail-feature-listicon-style"></span>想在未来几天前往？可以先看看天气预报下不下雨<br>
 						</h3>
 					</li>
 				</ul>
@@ -159,7 +264,7 @@
 <!-- bloc-11 END -->
 
 <!-- bloc-15 -->
-<div class="bloc bgc-light-fuchsia-pink l-bloc" id="bloc-15">
+<div class="bloc bgc-jonquil" id="bloc-15">
 	<div class="container bloc-md-lg bloc-md-md bloc-sm-sm b-divider bloc-sm">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12">
@@ -173,7 +278,7 @@
 <!-- bloc-15 END -->
 
 <!-- bloc-16 -->
-<div class="bloc tc-black bgc-light-fuchsia-pink l-bloc" id="bloc-16">
+<div class="bloc tc-black bgc-jonquil" id="bloc-16">
 	<div class="container bloc-md-lg bloc-md-md bloc-sm-sm bloc-sm">
 		<div class="row">
 			<div class="col">
@@ -185,7 +290,7 @@
 									简洁实用
 								</h3>
 								<p class="text-center feature-message-style text-lg-left mx-auto d-block">
-									这是一款功能专一、开箱即用的小应用，充分的利用了全平台小组件形式统一这一特性，并尝试了最新的应用构架，会不断加入新的特性。
+									使用最新的应用构架，适配一切系统和设备的新特性，例如横竖屏、黑暗模式、字体适配、iCloud同步等。当然还有最重要的流畅稳定，符合直觉的使用方式。
 								</p>
 							</div>
 							<div class="col-lg-3 col-md-12 feature-icon-column-style col-sm-12 align-self-center">
@@ -203,7 +308,7 @@
 									体验一致
 								</h3>
 								<p class="text-center text-lg-left feature-message-style">
-									在iPhone、iPad、MacBook上，操作方式一致，都只要在应用内添加希望关注的评论，然后去桌面添加小组件即可。
+									在iPhone、iPad、MacBook上，操作方式一致，甚至可以在Apple Watch内查看收藏的地点信息。
 								</p>
 							</div>
 						</div>
@@ -216,7 +321,7 @@
 <!-- bloc-16 END -->
 
 <!-- bloc-16 -->
-<div class="bloc bgc-light-fuchsia-pink l-bloc" id="bloc-16">
+<div class="bloc bgc-jonquil" id="bloc-16">
 	<div class="container bloc-md-lg bloc-sm-sm b-divider bloc-sm bloc-md-md">
 		<div class="row">
 			<div class="offset-lg-0 col-lg-12 offset-md-0 col-md-12 offset-sm-0 col-sm-12">
@@ -230,19 +335,19 @@
 <!-- bloc-16 END -->
 
 <!-- bloc-17 -->
-<div class="bloc tc-black bgc-light-fuchsia-pink l-bloc" id="bloc-17">
+<div class="bloc tc-black bgc-jonquil" id="bloc-17">
 	<div class="container bloc-md-lg bloc-md-md bloc-sm-sm bloc-sm">
 		<div class="row">
 			<div class="col-md-5">
 				<div class="card">
 					<div class="card-header">
 						<h5 class="mg-clear">
-							如何获取应用ID？
+							为什么需要用户自己申请API？
 						</h5>
 					</div>
 					<div class="card-body">
 						<p class="p-bloc-17-style">
-							目前添加应用需要搜索应用的ID，只要打开App Store搜索到该应用，然后点击分享，在列表内找到App评论集的图标点击后就可以自动获取该应用的ID。复制到软件内搜索即可。<br>更新后会完善应用搜索的功能。
+							因为我希望这个软件是免费的。<br>而查询地图信息，以及全世界任意地点的海拔、经纬度等信息显然并不是一个免费的信息。所以软件可以作为一个平台，通过我的工作让查询这件事情变得简单和便利，而信息的来源就需要用户去申请。<br>对于个人用户，信息提供商会给予一定的免费额度，基本上可以满足个人使用。
 						</p>
 					</div>
 				</div>
@@ -251,12 +356,12 @@
 				<div class="card">
 					<div class="card-header">
 						<h5 class="mg-clear">
-							如何切换应用的评论地区？
+							不会申请API怎么办？
 						</h5>
 					</div>
 					<div class="card-body">
 						<p class="p-21-style">
-							在应用页面的左上角点击应用切换列表，选择应用后点击查看详情。在详情页面拉到最下方即可切换不同的国家地区。
+							其实国内的供应商我目前为止没有找到开放的可以调用查询海拔的数据库，所以不得已选择了谷歌。那么假如用户觉得申请太过麻烦，根据使用人数，我会考虑集成一些api，然后通过次数销售的方式提供给不愿麻烦的用户。<br>但对于国内的用户来说，使用了谷歌的api也就意味着在使用时也需要让设备科学上网，这样才能顺利访问谷歌的服务器，获取海拔数据。<br>基于这些因素，用户可以自行判断应用是否适合自己。
 						</p>
 					</div>
 				</div>
@@ -264,8 +369,8 @@
 		</div>
 		<div class="row align-items-center">
 			<div class="col align-self-center">
-				<h3 class="mg-md float-lg-right float-md-right text-sm-right text-right">
-					<span class="fa fa-arrow-circle-right icon-sm icon-azure"></span><a class="qaf-morebutton-stype" href="https://support.qq.com/product/346474/faqs-more">查看更多</a><br>
+				<h3 class="mg-md float-lg-right float-md-right text-sm-right text-right btn-resize-mode">
+					<span class="fa fa-arrow-circle-right icon-sm icon-azure"></span><a class="qaf-morebutton-stype" href="https://support.qq.com/product/372090/faqs-more" target="_blank">查看更多</a><br>
 				</h3>
 			</div>
 		</div>
@@ -349,7 +454,7 @@
 <script src="./js/bootstrap.bundle.min.js?9046"></script>
 <script src="./js/blocs.min.js?2565"></script>
 <script src="./js/lazysizes.min.js" defer></script>
-<script src="./js/jquery.scrollify.js?1102"></script><!-- Additional JS END -->
+<script src="./js/jquery.scrollify.js?7714"></script><!-- Additional JS END -->
 
 
 </body>
