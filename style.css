@@ -573,6 +573,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .nav-button-style{
 	font-family:"Josefin Sans";
 	font-size:24px;
+	color:#434343!important;
 }
 .nav-botton-bg{
 	font-family:"Abel-Regular";
