@@ -541,6 +541,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding-left:60px;
 	margin-bottom:15px;
 }
+.card-body-style{
+	height:221px;
+}
 .amosreview-title-style{
 	font-size:60px;
 	line-height:72px;
@@ -807,6 +810,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-padding{
 	width:16.22%;
 }
+.ak23-title-style{
+	font-size:60px;
+}
+.card-body-2-style{
+	height:284px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -815,6 +824,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .bgc-coral{
 	background-color:rgba(255,127,95,0.08);
+}
+.bgc-sandy-brown{
+	background-color:rgba(252,172,108,0.27);
 }
 .bgc-maya-blue{
 	background-color:rgba(120,164,255,0.13);
@@ -833,6 +845,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .tc-black{
 	color:rgba(0,0,0,0.70)!important;
+}
+.tc-salmon{
+	color:#FC8A5E!important;
 }
 .tc-red-ryb{
 	color:#FF291D!important;
@@ -861,6 +876,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .ltc-red-ryb:hover{
 	color:#cc2117!important;
 }
+.ltc-salmon{
+	color:#FC8A5E!important;
+}
+.ltc-salmon:hover{
+	color:#ca6e4b!important;
+}
 .ltc-azure{
 	color:#007AFF!important;
 }
@@ -872,6 +893,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-medium-orchid:hover{
 	color:#8c42b2!important;
+}
+.ltc-café-au-lait{
+	color:#A2845E!important;
+}
+.ltc-café-au-lait:hover{
+	color:#826a4b!important;
 }
 
 /* Icon colour styles */
@@ -1022,6 +1049,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		font-size:18px;
 	}
 	.card-body-style{
+		height:228px;
 	}
 	.amoscar-carousel-style{
 		width:100%;
@@ -1190,6 +1218,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		padding-bottom:18px;
 		width:47.38%;
 	}
+	.card-body-2-style{
+		height:340px;
+	}
+	.ak23-carousel-style{
+		padding-top:100px;
+	}
+	.ak23-title-style{
+		text-align:center;
+	}
 	
 }
 
@@ -1322,6 +1359,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		margin-top:20px;
 	}
 	.card-body-style{
+		height:241px;
 	}
 	.amosreview-cardbody-style{
 	}
@@ -1372,6 +1410,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		padding-top:10px;
 		padding-bottom:10px;
 		border-radius:12px 12px 12px 12px;
+	}
+	.ak23-title-style{
+		font-size:40px;
+	}
+	.link-0-style{
+		font-size:13px;
 	}
 	
 }
@@ -1470,6 +1514,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		font-size:18px;
 	}
 	.card-body-style{
+		height:254px;
 	}
 	.amostime-title-style{
 		font-size:40px;
@@ -1611,6 +1656,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.linkdetail-button-style02{
 		width:55.19%;
+	}
+	.card-body-2-style{
+		height:350px;
+	}
+	.ak23-carousel-style{
+		padding-top:20px;
 	}
 	
 }
