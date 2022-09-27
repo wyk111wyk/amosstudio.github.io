@@ -344,6 +344,19 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Classic Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	min-height: 1px;
+	background-color:rgba(0,0,0,.2);
+	margin: 20px 0;
+}
+.divider-half{
+	width: 50%;
+}
+.dropdown-menu .divider-h{
+	margin:0;
+}
 
 
 
