@@ -15,6 +15,8 @@ body{
 .page-container{overflow: hidden;} /* Prevents unwanted scroll space when scroll FX used. */
 a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent blue selection glow on Chrome and Safari */
 a:hover{text-decoration: none; cursor:pointer;}
+.scroll-fx-lock-init{position:fixed!important;top: 0;bottom: 0;left: :0;right: 0;z-index:99999;} /* ScrollFX Lock */
+.blocs-grid-container{display: grid!important;grid-template-columns: 1fr 1fr;grid-template-rows: auto auto;column-gap: 1.5rem;row-gap: 1.5rem;} /* CSS Grid */
 
 
 /* Preloader */
@@ -32,6 +34,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	src: url('./fonts/Abel-Regular/Abel-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
+	font-display:swap;
 }
 
 /* = Blocs
@@ -183,6 +186,39 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = NavBar
 -------------------------------------------------------------- */
 
+/* Navbar Icon */
+.svg-menu-icon{
+	fill: none;
+	stroke: rgba(0,0,0,0.5);
+	stroke-width: 2px;
+	fill-rule: evenodd;
+}
+.navbar-dark .svg-menu-icon{
+	stroke: rgba(255,255,255,0.5);
+}
+.menu-icon-thin-bars{
+	stroke-width: 1px;
+}
+.menu-icon-thick-bars{
+	stroke-width: 5px;
+}
+.menu-icon-rounded-bars{
+	stroke-width: 3px;
+	stroke-linecap: round;
+}
+.menu-icon-filled{
+	fill: rgba(0,0,0,0.5);
+	stroke-width: 0px;
+}
+.navbar-dark .menu-icon-filled{
+	fill: rgba(255,255,255,0.5);
+}
+.navbar-toggler-icon{
+	background: none!important;
+	pointer-events: none;
+	width: 33px;
+	height: 33px;
+}
 /* Handle Multi Level Navigation */
 .dropdown-menu .dropdown-menu{
 	border:none}
@@ -833,92 +869,124 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* = Colour
 -------------------------------------------------------------- */
 
+/* Swatch Variables */
+:root{
+	
+	--swatch-var-1869:rgba(0,0,0,0.70);
+	
+	--swatch-var-7077:#FF291D;
+	
+	--swatch-var-4237:#007AFF;
+	
+	--swatch-var-2242:#AF52DE;
+	
+	--swatch-var-2376:rgba(255,127,95,0.08);
+	
+	--swatch-var-2919:rgba(120,164,255,0.13);
+	
+	--swatch-var-7386:rgba(242,132,255,0.08);
+	
+	--swatch-var-71:rgba(255,255,255,1.0);
+	
+	--swatch-var-2879:rgba(234,190,134,0.30);
+	
+	--swatch-var-1644:#A2845E;
+	
+	--swatch-var-7636:rgba(255,209,104,0.08);
+	
+	--swatch-var-580:#FC8A5E;
+	
+	--swatch-var-2310:rgba(252,172,108,0.27);
+	
+}
+
+
 /* Background colour styles */
 
-.bgc-coral{
-	background-color:rgba(255,127,95,0.08);
+.bgc-2376{
+	background-color:var(--swatch-var-2376);
 }
-.bgc-sandy-brown{
-	background-color:rgba(252,172,108,0.27);
+.bgc-2310{
+	background-color:var(--swatch-var-2310);
 }
-.bgc-maya-blue{
-	background-color:rgba(120,164,255,0.13);
+.bgc-2919{
+	background-color:var(--swatch-var-2919);
 }
-.bgc-light-fuchsia-pink{
-	background-color:rgba(242,132,255,0.08);
+.bgc-7386{
+	background-color:var(--swatch-var-7386);
 }
-.bgc-pale-gold{
-	background-color:rgba(234,190,134,0.30);
+.bgc-2879{
+	background-color:var(--swatch-var-2879);
 }
-.bgc-jonquil{
-	background-color:rgba(255,209,104,0.08);
+.bgc-7636{
+	background-color:var(--swatch-var-7636);
 }
 
 /* Text colour styles */
 
-.tc-black{
-	color:rgba(0,0,0,0.70)!important;
+.tc-1869{
+	color:var(--swatch-var-1869)!important;
 }
-.tc-salmon{
-	color:#FC8A5E!important;
+.tc-4237{
+	color:var(--swatch-var-4237)!important;
 }
-.tc-red-ryb{
-	color:#FF291D!important;
+.tc-580{
+	color:var(--swatch-var-580)!important;
 }
-.tc-azure{
-	color:#007AFF!important;
+.tc-7077{
+	color:var(--swatch-var-7077)!important;
 }
-.tc-medium-orchid{
-	color:#AF52DE!important;
+.tc-2242{
+	color:var(--swatch-var-2242)!important;
 }
-.tc-café-au-lait{
-	color:#A2845E!important;
+.tc-1644{
+	color:var(--swatch-var-1644)!important;
 }
 
 /* Link colour styles */
 
-.ltc-black{
+.ltc-1869{
+	color:var(--swatch-var-1869)!important;
+}
+.ltc-1869:hover{
 	color:rgba(0,0,0,0.70)!important;
 }
-.ltc-black:hover{
-	color:#000000!important;
+.ltc-7077{
+	color:var(--swatch-var-7077)!important;
 }
-.ltc-red-ryb{
-	color:#FF291D!important;
+.ltc-7077:hover{
+	color:#CC0000!important;
 }
-.ltc-red-ryb:hover{
-	color:#cc2117!important;
+.ltc-580{
+	color:var(--swatch-var-580)!important;
 }
-.ltc-salmon{
-	color:#FC8A5E!important;
+.ltc-580:hover{
+	color:#C9572B!important;
 }
-.ltc-salmon:hover{
-	color:#ca6e4b!important;
+.ltc-4237{
+	color:var(--swatch-var-4237)!important;
 }
-.ltc-azure{
-	color:#007AFF!important;
+.ltc-4237:hover{
+	color:#0047CC!important;
 }
-.ltc-azure:hover{
-	color:#0062cc!important;
+.ltc-2242{
+	color:var(--swatch-var-2242)!important;
 }
-.ltc-medium-orchid{
-	color:#AF52DE!important;
+.ltc-2242:hover{
+	color:#7C1FAB!important;
 }
-.ltc-medium-orchid:hover{
-	color:#8c42b2!important;
+.ltc-1644{
+	color:var(--swatch-var-1644)!important;
 }
-.ltc-café-au-lait{
-	color:#A2845E!important;
-}
-.ltc-café-au-lait:hover{
-	color:#826a4b!important;
+.ltc-1644:hover{
+	color:#6F512B!important;
 }
 
 /* Icon colour styles */
 
-.icon-azure{
-	color:#007AFF!important;
-	border-color:#007AFF!important;
+.icon-4237{
+	color:var(--swatch-var-4237)!important;
+	border-color:var(--swatch-var-4237)!important;
 }
 
 /* Bloc image backgrounds */

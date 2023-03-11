@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+	    {
+            	"appID": "D3FXKEY64K.com.AmosStudio.AmosGym",
+            	"paths": ["/*", "/amosgym/*", "*"]
+            }
+        ]
+    }
+}
