@@ -1,18 +1,23 @@
 {
     "applinks": {
-        "apps": [],
         "details": [
-	    {
-            	"appID": "D3FXKEY64K.com.AmosStudio.AmosGym",
-            	"paths": [
-			"/amosgym/*"
-		]
+            {
+                "appID": "D3FXKEY64K.com.AmosStudio.AmosGym",
+                "components": [
+                    {
+                        "/": "/amosgym/*",
+                        "comment": "AmosGym"
+                    }
+                ]
             },
-	    {
-            	"appID": "D3FXKEY64K.com.AKSocial.AmosTesla001",
-            	"paths": [
-			"/amoscar/*"
-		]
+            {
+                "appID": "D3FXKEY64K.com.AKSocial.AmosTesla001",
+                "components": [
+                    {
+                        "/": "/amoscar/*",
+                        "comment": "AmosCar For Tesla"
+                    }
+                ]
             }
         ]
     }
