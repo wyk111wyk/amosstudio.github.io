@@ -355,15 +355,6 @@ button{
 	text-shadow:0 1px 2px rgba(0,0,0,.3);
 }
 
-/* = Lists
--------------------------------------------------------------- */
-.list-horizontal-layout li{
-	display:inline-block;
-	margin:0 10px;
-}
-.list-sp-md li:last-child,.list-sp-lg li:last-child,.list-sp-xl li:last-child{
-	padding-bottom:0;
-}
 
 /* = Cards
 -------------------------------------------------------------- */
@@ -467,7 +458,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:100%;
 	margin-bottom:27px;
 	margin-top:0px;
-	text-shadow:0px 8px 23px #929193;
+	text-shadow:3.35px 2.18px 8px #929193;
 	max-width:1000px;
 	font-weight:bold;
 }
@@ -503,8 +494,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding-top:6px;
 }
 .bloc-0-padding-right{
-	padding-right:16px;
-	padding-left:25px;
+	padding-right:0px;
+	padding-left:0px;
 }
 .h3-watchos-padding-top{
 	padding-top:0px;
@@ -673,8 +664,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding:0px 0px 0px 0px;
 }
 .appstore-buttton-style{
-	width:240px;
-	margin-top:20px;
+	width:200px;
+	margin-top:15px;
+	margin-bottom:10px;
 }
 .amostime-carousel-style{
 	box-shadow:0px 13px 30px #535353;
@@ -849,12 +841,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:16.22%;
 }
 .linkdetail-button-style02{
-	padding-top:22px;
-	padding-bottom:22px;
-	width:33.43%;
-	margin-top:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:200px;
 	background-color:#148EFF;
-	border-radius:15px 15px 15px 15px;
+	border-radius:12px 12px 12px 12px;
+	height:48px;
+	margin-top:15px;
 }
 .btn-padding{
 	width:16.22%;
@@ -864,6 +857,43 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .card-body-2-style{
 	height:284px;
+}
+.img-platform-style{
+	width:150px;
+	border-radius:0px 0px 0px 0px;
+}
+.img-icon-amosvoi-style{
+	border-radius:20px 20px 20px 20px;
+}
+.img-amosgym-style{
+	width:407px;
+}
+.p-margin-bottom{
+	margin-bottom:40px;
+}
+.img-envel-style{
+	width:390px;
+	padding-bottom:20px;
+}
+.carousel-style{
+	width:100%;
+}
+.img-margin-bottom{
+	margin-bottom:25px;
+}
+.p-66-style{
+	font-size:16px;
+}
+.btn-button-style{
+	width:48.65%;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.link-ak23会员协议-style{
+	font-weight:bold;
+	font-size:20px;
+	padding-top:10px;
+	padding-bottom:10px;
 }
 
 /* = Colour
@@ -896,7 +926,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	
 	--swatch-var-580:#FC8A5E;
 	
-	--swatch-var-2310:rgba(252,172,108,0.27);
+	--swatch-var-2310:#FFF5E5;
+	
+	--swatch-var-7290:#5BE2E6;
+	
+	--swatch-var-1037:#686868;
 	
 }
 
@@ -906,20 +940,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-2376{
 	background-color:var(--swatch-var-2376);
 }
-.bgc-2310{
-	background-color:var(--swatch-var-2310);
-}
 .bgc-2919{
 	background-color:var(--swatch-var-2919);
 }
 .bgc-7386{
 	background-color:var(--swatch-var-7386);
 }
-.bgc-2879{
-	background-color:var(--swatch-var-2879);
-}
 .bgc-7636{
 	background-color:var(--swatch-var-7636);
+}
+.bgc-2310{
+	background-color:var(--swatch-var-2310);
 }
 
 /* Text colour styles */
@@ -927,20 +958,26 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-1869{
 	color:var(--swatch-var-1869)!important;
 }
-.tc-4237{
-	color:var(--swatch-var-4237)!important;
+.tc-7077{
+	color:var(--swatch-var-7077)!important;
 }
 .tc-580{
 	color:var(--swatch-var-580)!important;
 }
-.tc-7077{
-	color:var(--swatch-var-7077)!important;
-}
 .tc-2242{
 	color:var(--swatch-var-2242)!important;
 }
+.tc-1037{
+	color:var(--swatch-var-1037)!important;
+}
+.tc-4237{
+	color:var(--swatch-var-4237)!important;
+}
 .tc-1644{
 	color:var(--swatch-var-1644)!important;
+}
+.tc-7290{
+	color:var(--swatch-var-7290)!important;
 }
 
 /* Link colour styles */
@@ -1150,6 +1187,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.appstore-buttton-style{
 		width:210px;
 		padding-top:0px;
+		margin-bottom:10px;
 	}
 	.amostime-carousel-style{
 		box-shadow:0px 11px 24px #5D5D5D;
@@ -1218,7 +1256,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.h1-title-style{
 		text-shadow:0px 7px 19px #8D8C8E;
-		font-family:"Droid Sans";
 	}
 	.p-style{
 		font-size:19px;
@@ -1231,9 +1268,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.header-title01-style{
 		margin-left:30px;
+		font-size:100px;
 	}
 	.header-title02-style{
 		margin-left:30px;
+		font-size:50px;
 	}
 	.img-header-style{
 		margin-left:30px;
@@ -1269,6 +1308,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.header-subtitle-style{
 		text-align:left;
+		font-size:30px;
 	}
 	.bloc-margin-top{
 		margin-top:15px;
@@ -1308,6 +1348,22 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.ak23-title-style{
 		text-align:center;
 	}
+	.mt-md-0{
+	}
+	.mt-md-4{
+	}
+	.img-icon-amosvoi-style{
+	}
+	.bloc-0-padding-left{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	.header-message-style{
+		font-size:16px;
+	}
+	.img-amosgym-style{
+		width:282px;
+	}
 	
 }
 
@@ -1327,7 +1383,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		padding-left:20px;
 		padding-right:20px;
 		text-shadow:0px 5px 21px #979797;
-		font-family:"Droid Sans";
 	}
 	.design-list-style{
 		padding-left:0px;
@@ -1410,6 +1465,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.appstore-buttton-style{
 		width:150px;
 		margin-top:20px;
+		margin-bottom:10px;
 	}
 	.amostime-title-style{
 		font-size:50px;
@@ -1498,6 +1554,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.link-0-style{
 		font-size:13px;
 	}
+	.bloc-0-padding-left{
+	}
 	
 }
 
@@ -1513,7 +1571,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.h1-title-style{
 		font-size:300%;
-		font-family:"Droid Sans";
 		text-shadow:0px 5px 21px #979797;
 		padding:0px 0px 0px 0px;
 	}
@@ -1743,6 +1800,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.ak23-carousel-style{
 		padding-top:20px;
+	}
+	.mt-1{
+	}
+	.bloc-0-padding-left{
+		padding-left:25px;
+		padding-right:25px;
 	}
 	
 }

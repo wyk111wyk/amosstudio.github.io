@@ -1,0 +1,674 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>AK23隐私条款</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-interactiveBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="cf4802f5-9f55-47d3-afd6-036d6b0d684d" class="page sans"><header><h1 class="page-title"><strong><strong>AK23隐私条款</strong></strong></h1><p class="page-description"></p></header><div class="page-body"><p id="36606048-6086-4e91-8f09-d70ca1e773da" class="">生效日期：2022年9月1日</p><h1 id="832fc158-2904-4fc3-aba5-b8f1650b4f91" class="">一、隐私保护许诺</h1><ol type="1" id="a0c7f9db-21de-4dfc-9047-b4f55495402f" class="numbered-list" start="1"><li>尊敬的用户：AK23运动（以下简称为“健身房”或“我们”）尊重并保护所有用户的个人信息及隐私安全。为同时给您提供更准确、有个性化的服务和更安全的互联网环境，我们依据相关法律法规和技术规范明确了我们收集/使用/对外提供个人信息的原则，制定了《AK23隐私条款》（以下简称为“本条款”）。<strong>本条款中与您权益（可能）存在重大关系的条款，我们已使用加粗字体予以区别，请您重点查阅。</strong></li></ol><ol type="1" id="50340287-bd03-45de-bb45-cbde60d80491" class="numbered-list" start="2"><li>请在使用/继续使用我们的各项产品与服务前，仔细阅读并充分理解本条款，并在需要时，按照本条款的指引，做出适当的选择。如果您不同意本条款的内容，将可能导致我们的产品与/或服务无法正常运行，或者无法达到我们拟达到的服务效果，您应立即停止访问/使用我们的产品与/或服务。您使用或继续使用我们提供的产品与/或服务的行为，都表示您充分理解和同意本条款（包括更新版本）的全部内容。</li></ol><ol type="1" id="414418a8-e41d-415f-baa7-1a95f973188c" class="numbered-list" start="3"><li><strong>本条款适用于所有Amos系列应用或由Amos Studio工作室推出的软硬件产品。</strong></li></ol><h1 id="64d91cc7-79c1-437f-9c9a-44669c0397c6" class="">二、收集个人信息</h1><ol type="1" id="a498a6a0-b6d5-4ea4-b4f1-67d0fbd67236" class="numbered-list" start="1"><li><strong>我们会遵循正当、合法、必要的原则，收集和使用您在使用我们服务过程中主动提供或因使用我们产品和/或服务而产生的个人信息和特殊信息。</strong></li></ol><ol type="1" id="f88bfa56-3bce-415f-bf69-b666d302e9e1" class="numbered-list" start="2"><li>个人信息包括但不限于您填写的个人资料、浏览记录（您的关注、浏览）和点击操作记录（兴趣、点击、搜索、点赞、收藏、分享、评论、发布记录及有关行为）。</li></ol><ol type="1" id="3abde714-ac77-47cc-91d4-ef4a6da7825a" class="numbered-list" start="3"><li>基于安全目的，会员在创建闸机人脸识别信息前，需要进行本人身份证和姓名的实名制认证，并与账户进行绑定。</li></ol><ol type="1" id="817e4e8a-a814-43d9-9754-1d7e5308c542" class="numbered-list" start="4"><li>特殊信息包括用于申请认证学生、社交达人等身份时使用的相关资料，以及匹配训练伙伴时填写的相关资料，包括但不限于用户主动上传的照片、证件、链接、信息。</li></ol><ol type="1" id="efba0708-034b-40b5-8c38-901364b620b7" class="numbered-list" start="5"><li>当您使用发布、编辑内容功能时，我们会请求您授权存储（相册、媒体和其他文件）、相机（摄像头）、麦克风（录音）权限。您如果拒绝授权提供，将无法使用相应功能，但不影响您正常使用应用的其他功能。</li></ol><ol type="1" id="835ccb1c-9e7d-4882-8952-f403d0917279" class="numbered-list" start="6"><li>为了改进应用质量和网络服务，防止欺诈行为和保护账号安全，应用会收集您的设备信息，包括但不限于：设备型号、设备名称、SIM卡序列号、设备唯一标识符（包括：IMEI、IMSI、AndroidID、IDFA、OAID）、地理位置、存储（相册、媒体和其他文件）、浏览器类型和设置、语言设置、操作系统和应用程序版本、网络设备硬件地址（MAC地址）、登录IP地址、接入网络的方式、网络质量数据、移动网络信息（包括运营商名称）、产品版本号以及软件使用记录信息。</li></ol><ol type="1" id="9885ec8f-6c1d-47bf-86c5-6afbdfbddb97" class="numbered-list" start="7"><li>如您使用第三方平台的账号登录时，经过您明确授权账号绑定后， 第三方平台会向我们同步您在该平台上使用的头像、昵称、地区（如有）、性别（如有）及好友信息（如微博平台） ，以使您可以直接登录。</li></ol><h1 id="cedeb7cf-2b1b-4dfd-8909-8f2fb95a3687" class="">三、信息使用和保护</h1><ol type="1" id="33c33389-6d52-45cb-bea8-c7367498c06a" class="numbered-list" start="1"><li>我们将对您所提供的资料进行严格的管理及保护，包括使用相应的技术，防止您的个人资料丢失、被盗用或遭窜改。</li></ol><ol type="1" id="7e175f41-6dd8-4a4d-ad67-b1e28577319b" class="numbered-list" start="2"><li><strong>在不透露您隐私资料的前提下，我们有权对您整个数据库进行分析并对您数据库进行商业上的利用。</strong></li></ol><ol type="1" id="4b339582-be33-4a03-92fe-6c0deb635dc7" class="numbered-list" start="3"><li>18岁以下的未成年人购买和使用我们的服务须事先得到家长或监护人（以下统称为&quot;监护人&quot;）的同意，监护人有取消被监护人使用服务的权力。</li></ol><ol type="1" id="e251aabe-9139-440d-a9fa-5578b7c5d816" class="numbered-list" start="4"><li>当会员被举报行为不当或违反行为守则，我们有权调阅被举报者的相关数据和信息，对举报进行查证。</li></ol><ol type="1" id="2639d97b-1cca-466d-ad2b-3f2065c6abc6" class="numbered-list" start="5"><li>当司法机关、政府机关依照法定程序要求我们披露个人资料时，我们将根据司法、执法单位的要求提供我们掌握的必要的个人信息。<strong>在此情况下之任何披露，我们均不对所产生的后果负任何责任。</strong></li></ol><h1 id="d8fdbca2-288c-46ea-8c3b-0d4ffa0d117e" class="">四、用户分享准则</h1><ol type="1" id="53a168cc-15c7-49af-8f91-4c0a613aac1c" class="numbered-list" start="1"><li>用户对自己发表在我们所有应用上的文字、信息、数据、图片、图表、照片、软件、声音、影像或其他任何形式的资料（不论是公开发布或私下传递），都要对其可能的后果负全部责任。</li></ol><ol type="1" id="4b581496-3590-4e21-a533-f9d22ccbb0f4" class="numbered-list" start="2"><li>用户可以发布任何自由创作的内容，但仍然需要符合法律规范，用户的言行不得违反《计算机信息网络国际联网安全保护管理办法》、《互联网信息服务管理办法》、《互联网电子公告服务管理规定》、《维护互联网安全的决定》、《互联网新闻信息服务管理规定》、《网络信息内容生态治理规定》等相关法律规定，不得在社区发布、传播或以其它方式传送含有下列内容之一的信息：<ul id="7ebb904e-5914-4ec2-aa73-35bac06e8ccb" class="bulleted-list"><li style="list-style-type:disc">反对宪法所确定的基本原则的；</li></ul><ul id="51d8b3b8-82ac-4955-a4ba-3d58987683f6" class="bulleted-list"><li style="list-style-type:disc">危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；</li></ul><ul id="ba3ad843-ae9c-45df-8ebf-ea23cc046d27" class="bulleted-list"><li style="list-style-type:disc">损害国家荣誉和利益的；</li></ul><ul id="e49ac1dc-b5a9-4f93-a1a3-48ec5f44cb38" class="bulleted-list"><li style="list-style-type:disc">煽动民族仇恨、民族歧视、破坏民族团结的；</li></ul><ul id="b4e77f65-b751-4dfa-8eac-ba5b8a53e843" class="bulleted-list"><li style="list-style-type:disc">破坏国家宗教政策，宣扬邪教和封建迷信的；</li></ul><ul id="9c3836d7-f4f4-4885-8696-74761c39aa6d" class="bulleted-list"><li style="list-style-type:disc">散布谣言，扰乱社会秩序，破坏社会稳定的；</li></ul><ul id="b3ec8867-329b-45b5-b385-ba120ea66985" class="bulleted-list"><li style="list-style-type:disc">散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；</li></ul><ul id="9a065636-c161-4a09-8c61-7b78c544c0a5" class="bulleted-list"><li style="list-style-type:disc">侮辱或者诽谤他人，侵害他人合法权利的；</li></ul><ul id="a5a070fe-c547-46a7-aba6-7046f8f1464c" class="bulleted-list"><li style="list-style-type:disc">煽动非法集会、结社、游行、示威、聚众扰乱社会秩序的；</li></ul><ul id="5d67dd68-7ba2-431a-8cc3-af7f553b2d8d" class="bulleted-list"><li style="list-style-type:disc">以非法民间组织名义活动的；</li></ul><ul id="7868fe08-1369-4039-94f0-45bcb319ef8d" class="bulleted-list"><li style="list-style-type:disc">含有虚假、有害、胁迫、侵害他人隐私、骚扰、侵害、中伤、粗俗、猥亵、或其它道德上令人反感的内容；</li></ul><ul id="d40dee0e-72ec-4654-b182-b652a1fb21e5" class="bulleted-list"><li style="list-style-type:disc">侵犯他人知识产权或其他合法权益的；</li></ul><ul id="2f9df594-8198-4e1f-9b06-e443f1b1c78c" class="bulleted-list"><li style="list-style-type:disc">明显带有商业性质的广告；</li></ul><ul id="7719d85c-4ea1-4051-9c98-a6aa857d8b03" class="bulleted-list"><li style="list-style-type:disc">无任何科学依据的健康或投资建议；</li></ul><ul id="90dc602e-5c4f-48e9-8f9d-387b20cb8292" class="bulleted-list"><li style="list-style-type:disc">过度裸露或性暗示的内容；</li></ul><ul id="d703aaff-318d-4fb9-b627-67f7f0db54c8" class="bulleted-list"><li style="list-style-type:disc">含有中国法律、法规、规章、条例以及任何具有法律效力之规范所限制或禁止的其它内容的。</li></ul></li></ol><ol type="1" id="4b6d1f77-fd8d-4629-b897-9e51f9027130" class="numbered-list" start="3"><li>对于违反规范的发布内容，我们有权进行删除或者修改。</li></ol><ol type="1" id="e8e3c062-152f-4ae1-8d33-888f34b09311" class="numbered-list" start="4"><li>对于情节极其严重的违规违法行为，健身房有权通知并配合公安部门进行处理。</li></ol><ol type="1" id="71ca26d6-c85e-4aef-b400-0ff89e1ebfc1" class="numbered-list" start="5"><li><strong>因本合同产生的任何争议，双方应协商解决，协商不成的，应提交合同履行地人民法院裁决。</strong></li></ol></div></article></body></html>

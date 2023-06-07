@@ -1,0 +1,675 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>AK23会员行为守则</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-interactiveBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="360b0efc-d34c-43bd-a210-9591c38ddbfb" class="page sans"><header><h1 class="page-title">AK23会员行为守则</h1><p class="page-description"></p></header><div class="page-body"><p id="8adbea5c-d0f7-4bda-aa3d-882710cfed8e" class="">生效日期：2023年5月20日</p><h1 id="a685f303-5311-4c41-a173-fd9806cf4a5b" class="">一、<strong>会员须知</strong></h1><ol type="1" id="8f42f9e8-9563-41f3-8566-5475fbf49291" class="numbered-list" start="1"><li>尊敬的会员：<strong>请您仔细阅读以下条款，进入场馆进行锻炼即意味着您同意《AK23会员行为守则》（以下称“本守则”）约定全部内容，对本守则有异议请联系工作人员或选择不要进入场馆</strong>。在健身房锻炼的人员必须遵守有关规章制度，服从管理人员的管理，禁止一切违法的行为。</li></ol><ol type="1" id="e1082edf-56c8-4d9e-9dff-bc7cd8f07079" class="numbered-list" start="2"><li>用户应当在购买会员卡之前认真阅读本守则内容。如对本守则有任何疑问，应及时咨询。用户在同意所有协议条款并完成购买程序，才能成为付费会员，<strong>勾选“我已经阅读并同意遵守《AK23会员行为守则》”按钮即代表用户已阅读、理解和同意该协议</strong>。如果用户不同意本协议的约定，应立即停止购买和使用。</li></ol><ol type="1" id="84bf913a-cfbb-4fc9-b366-86cd4b2026dd" class="numbered-list" start="3"><li><strong>由于AK23的营业模式包含24小时自助式健身房，场馆内可能存在无工作人员的时段，需要您采取妥善措施保护自己的人身及财产安全，为了您和他人的利益，请您在购买健身服务前仔细阅读本守则。</strong></li></ol><h1 id="5b7cb8e5-62d8-4282-abb7-782d816264d1" class="">二、适用范围</h1><ol type="1" id="696dd642-d554-4cf0-a33e-b9e1a8d66872" class="numbered-list" start="1"><li>所有购买会员卡且未过期的有效会员。</li></ol><ol type="1" id="ef367c59-e137-4ebd-80a5-949eceef9c8b" class="numbered-list" start="2"><li>本守则被视为《AK23会员协议》的补充协议，对健身房有效会员在场馆内的行为进行约束和指导。</li></ol><h1 id="2831b1da-140d-40c2-ae68-01884a4e07a7" class="">三、<strong>训练着装和要求</strong></h1><ol type="1" id="8c52c228-ef98-4bcd-bba9-778cd2b32c5d" class="numbered-list" start="1"><li>必须穿着适合运动的训练鞋和运动服。</li></ol><ol type="1" id="e727ea73-4bca-40b5-81fa-caa2b8d4411d" class="numbered-list" start="2"><li>禁止赤裸上身。</li></ol><ol type="1" id="5d3b4b07-8a21-4b21-8df8-8bbc39200221" class="numbered-list" start="3"><li>禁止佩戴首饰等不适合运动的配饰进行锻炼。</li></ol><ol type="1" id="88f245f5-3e8d-4e8a-9fcb-75a1b36f3c24" class="numbered-list" start="4"><li>禁止穿着高跟鞋、皮鞋、拖鞋等不适合运动的鞋子。</li></ol><ol type="1" id="4e59b219-8f6d-481a-9fef-0e549e01b9d5" class="numbered-list" start="5"><li>禁止赤脚进行锻炼。</li></ol><ol type="1" id="367abde9-6d60-481d-8011-bc2ca4db3f4f" class="numbered-list" start="6"><li><strong>健身房对不按规定着装导致的人身与财产事故均不负责</strong>。</li></ol><h1 id="916d3a4f-e2d2-4ec0-96ed-b464868c5b7e" class="">四、<strong>文明礼貌要求</strong></h1><ol type="1" id="c7c47de9-2f29-4b5d-8760-03286789739b" class="numbered-list" start="1"><li>有狐臭或体臭的会员请自备止汗剂。</li></ol><ol type="1" id="c432ddd5-5211-4cdd-8d45-e9b046789f61" class="numbered-list" start="2"><li>禁止携带宠物进入健身房。</li></ol><ol type="1" id="09885820-0bdf-409b-a7a0-157b047ec20b" class="numbered-list" start="3"><li><strong>禁止带儿童、幼儿进入健身房</strong>，仅限会员本人进入场馆。</li></ol><ol type="1" id="d1072a05-b0ae-4a82-ba29-b8f5399b32c6" class="numbered-list" start="4"><li>禁止骚扰其他会员，尤其是异性会员。</li></ol><ol type="1" id="b2d79b45-73bc-4666-8a19-b6c16a5bbe58" class="numbered-list" start="5"><li><strong>禁止搭讪佩戴耳机的会员，不想被搭讪可佩戴耳机。</strong></li></ol><ol type="1" id="baca82ec-ae61-4b1b-937c-e921f721b11b" class="numbered-list" start="6"><li>禁止高声喧哗和外放音乐。</li></ol><ol type="1" id="8a803d96-93a5-436e-aa46-e4bcf01e4709" class="numbered-list" start="7"><li>禁止在训练时持续大声喊叫。</li></ol><ol type="1" id="7ff5bff4-077e-4046-a72a-819b217591d8" class="numbered-list" start="8"><li><strong>禁止在健身房从事商业经营性业务，例如兜售产品、发放传单等。</strong></li></ol><ol type="1" id="e254a59d-2e4d-4a41-a837-8f135b222e12" class="numbered-list" start="9"><li>禁止在健身房内辱骂他人和打架斗殴。</li></ol><ol type="1" id="b527ad83-6952-400f-8041-3d3a9ece2a49" class="numbered-list" start="10"><li>禁止在未获得允许前拍摄其他会员。</li></ol><ol type="1" id="66248fa3-e0ab-49e3-a259-089412fa8a94" class="numbered-list" start="11"><li>禁止在不使用器械的情况下占用器械。</li></ol><ol type="1" id="8b2ef29c-869d-42d7-94db-814df9606ec8" class="numbered-list" start="12"><li><strong>多人使用同一设备时，需友善协商，轮流使用，禁止强行霸占或装卸配重。</strong></li></ol><h1 id="fe2ec4fc-cfd3-4e50-a84f-263df1846f69" class="">五、<strong>场地卫生要求</strong></h1><ol type="1" id="af90056e-8864-4f8e-baa9-50d0993ed337" class="numbered-list" start="1"><li>禁止乱丢垃圾。</li></ol><ol type="1" id="eb3b2264-5398-43c7-aa8c-10503b359d28" class="numbered-list" start="2"><li><strong>禁止在场馆内任何地点抽烟。</strong></li></ol><ol type="1" id="1d919ee9-7a44-4f4d-b1d9-ad5833852076" class="numbered-list" start="3"><li>禁止嚼槟榔和随地吐痰。</li></ol><ol type="1" id="ae9a0b15-3588-4d2e-b2c8-328d3aee6fa5" class="numbered-list" start="4"><li>禁止在健身房内吃瓜果等零食。</li></ol><ol type="1" id="c2a2e2f8-d67f-4d70-8de7-7f57232c4889" class="numbered-list" start="5"><li>器械使用结束后，会员需清理残留汗渍。</li></ol><ol type="1" id="34fcb18e-72c9-4913-8f8d-1d463fb3665e" class="numbered-list" start="6"><li>健身结束后应将设备放回原处。</li></ol><h1 id="bf674228-8327-4cd2-be9f-83d555187ee6" class="">六、<strong>身体健康要求</strong></h1><ol type="1" id="537fc017-e2b6-42d5-9912-d03a30036792" class="numbered-list" start="1"><li>进入场馆训练前确保身体情况良好，禁止以下情况者锻炼：<ul id="597030a0-81a5-4d16-b8d0-3fc0a24d0d87" class="bulleted-list"><li style="list-style-type:disc">怀孕期间的女性（凭医疗凭证可申请延期）</li></ul><ul id="7e0761ab-be8f-4843-8fdb-516507f9079b" class="bulleted-list"><li style="list-style-type:disc">身患疾病或残疾</li></ul><ul id="e868a8d9-64ed-479b-8b28-a8cd64dac573" class="bulleted-list"><li style="list-style-type:disc">超过60岁的老年人</li></ul><ul id="db629ec8-163d-4ffb-95ca-f4d0cc9e9037" class="bulleted-list"><li style="list-style-type:disc">患有皮肤病、传染病、心脏病、高血压、糖尿病、肾功能不良及其他<strong>不适合体育锻炼的疾病患者</strong></li></ul></li></ol><ol type="1" id="1f11b41d-dfef-42fd-8055-c09ac489a940" class="numbered-list" start="2"><li><strong>禁止酒后锻炼或在锻炼时饮酒。</strong></li></ol><ol type="1" id="19eff205-55a3-4625-ae25-f7191053b61c" class="numbered-list" start="3"><li>禁止在训练前吸食毒品。</li></ol><h1 id="d5eb271b-2928-4b8a-8dcc-71c17ecd9b73" class="">七、<strong>健身器材使用说明</strong></h1><ol type="1" id="5bdc230c-d784-4589-9262-afdb45d22062" class="numbered-list" start="1"><li>在使用健身器材前确保已掌握使用方法，并在能力范围内使用。</li></ol><ol type="1" id="78a65de6-8d6f-41a4-a882-3ed147b53fa1" class="numbered-list" start="2"><li>除非其他会员发生危险或提出要求，否则不要主动指导他人。</li></ol><ol type="1" id="b73dc90b-15ab-48f6-912a-c9c62d451776" class="numbered-list" start="3"><li>店内任何设备不予外借或外带，仅限场馆内使用。</li></ol><ol type="1" id="be74204f-2eda-4e95-9b26-bd7a572b0b1a" class="numbered-list" start="4"><li>禁止在无训练需求时占用器械，例如坐在设备上刷手机、玩游戏、聊天等。</li></ol><ol type="1" id="95bf1f40-f0cd-41cf-b5ff-a7626d0864dc" class="numbered-list" start="5"><li>发现器械故障需及时停止使用，并通知上报。</li></ol><ol type="1" id="376e1d36-3d2a-43b0-97fe-db4b500a55d9" class="numbered-list" start="6"><li><strong>由于使用方式不正确、能力不足、个人疏忽造成的人身伤害由会员本人承担。</strong></li></ol><ol type="1" id="ed5988f8-6bab-4c67-9225-86785a77f001" class="numbered-list" start="7"><li>人为原因造成器材或设备损坏者须按价赔偿设备及相关损失。</li></ol><ol type="1" id="cc30be2c-0043-489e-8450-c685932671a0" class="numbered-list" start="8"><li><strong>如出现头晕、恶心、胸闷等不适症状，应立即停止运动，及时寻医治疗。</strong></li></ol><ol type="1" id="6e09e99f-2021-454c-9583-4124f08314b1" class="numbered-list" start="9"><li>禁止提前占用或出于非训练目的占用训练器材如哑铃、杠铃片等，归位使用后的器材后方可取用新的器材。</li></ol><h1 id="8a18eea7-7226-4262-b9cb-e4b820ce82b9" class="">八、<strong>违规处理</strong></h1><ol type="1" id="01da6b25-b893-4546-b143-1d19119c517d" class="numbered-list" start="1"><li>为了维护良好的健身环境，<strong>会员可在App内对其他会员的不当行为或违规情况进行举报</strong>，健身房会通过调取监控回放等方式进行查证，并对确认违规的会员进行沟通和处理。</li></ol><ol type="1" id="bf7ae94f-4f83-4856-8993-a3921aeac758" class="numbered-list" start="2"><li><strong>会员违反规定者，视情节严重健身房可能处以警告、暂停会员权益、终止会员关系等措施。</strong></li></ol><ol type="1" id="20cdd6e9-44be-41ac-9137-dce053bcf3c2" class="numbered-list" start="3"><li>会员由于违反规定给场馆或第三方造成损失的，需要承担相关的经济和法律责任。</li></ol><ol type="1" id="4858db89-a4bd-43db-a6ca-f8d479eca052" class="numbered-list" start="4"><li>对由于严重违反规定，而被终止会员关系的会员，健身房会在扣除相应的损失赔偿费用后，根据日期返还剩余部分。对于暂停会员权益的用户，暂停期间费用不予退回。</li></ol><ol type="1" id="8edfb384-8a49-4d9d-a609-028a1a2126b7" class="numbered-list" start="5"><li>对于情节极其严重的违规违法行为，健身房有权通知并配合公安部门进行处理。</li></ol><ol type="1" id="cd325077-f44f-4a7a-b8f6-643552493dbd" class="numbered-list" start="6"><li><strong>因本合同产生的任何争议，双方应协商解决，协商不成的，应提交合同履行地人民法院裁决。</strong></li></ol><p id="d1c21055-28e0-4c8b-a4b1-4a97ef20950b" class="">
+</p></div></article></body></html>
