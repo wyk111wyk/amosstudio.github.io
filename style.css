@@ -1804,8 +1804,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.mt-1{
 	}
 	.bloc-0-padding-left{
-		padding-left:25px;
-		padding-right:25px;
+		padding-left:20px;
+		padding-right:20px;
+	}
+	.p-margin-bottom{
+		margin-left:10px;
+		margin-right:10px;
+	}
+	.img-envel-style{
+		padding-left:10px;
+		padding-right:10px;
 	}
 	
 }
