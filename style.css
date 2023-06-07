@@ -895,6 +895,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding-top:10px;
 	padding-bottom:10px;
 }
+.img-bloc-43-style{
+	width:555px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1364,6 +1367,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.img-amosgym-style{
 		width:282px;
 	}
+	.img-bloc-43-style{
+		width:344px;
+	}
 	
 }
 
@@ -1555,6 +1561,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		font-size:13px;
 	}
 	.bloc-0-padding-left{
+	}
+	.carousel-style{
+		margin-bottom:30px;
 	}
 	
 }
@@ -1816,9 +1825,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		padding-left:10px;
 		padding-right:10px;
 	}
-	.img-bloc-43-style{
+	.img-gym--style{
 		width:70px;
-		height:70px;
+	}
+	.carousel-style{
+		margin-bottom:20px;
 	}
 	
 }
