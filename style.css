@@ -1810,10 +1810,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.p-margin-bottom{
 		margin-left:10px;
 		margin-right:10px;
+		margin-bottom:30px;
 	}
 	.img-envel-style{
 		padding-left:10px;
 		padding-right:10px;
+	}
+	.img-bloc-43-style{
+		width:70px;
+		height:70px;
 	}
 	
 }
