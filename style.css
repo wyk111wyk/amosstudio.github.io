@@ -881,9 +881,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-margin-bottom{
 	margin-bottom:25px;
 }
-.p-66-style{
-	font-size:16px;
-}
 .btn-button-style{
 	width:48.65%;
 	padding-top:10px;
@@ -1038,6 +1035,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
+
+/* = Custom Bric Data
+-------------------------------------------------------------- */
 
 
 
@@ -1854,6 +1854,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.img-文字logo-大备份-style{
 		width:236px;
+	}
+	.blocsaddons-markdown{
 	}
 	
 }
