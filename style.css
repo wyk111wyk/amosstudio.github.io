@@ -527,8 +527,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding-bottom:22px;
 }
 .bloc-padding-left{
-	padding-left:15px;
-	padding-right:15px;
+	padding-left:25px;
+	padding-right:25px;
 }
 .img-bloc-5-style{
 	width:336px;
@@ -897,6 +897,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-bloc-43-style{
 	width:555px;
+}
+.container-div-style{
+	padding-top:20px;
+	min-height:1226px;
+}
+.img-文字logo-大备份-style{
+	width:474px;
 }
 
 /* = Colour
@@ -1370,6 +1377,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.img-bloc-43-style{
 		width:344px;
 	}
+	.img-文字logo-大备份-style{
+		width:346px;
+	}
 	
 }
 
@@ -1495,7 +1505,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		padding:0px 0px 0px 0px;
 	}
 	.bloc-padding-left{
-		padding-left:30px;
+		padding-left:15px;
 	}
 	.amosreview-carousel-style{
 		box-shadow:0px 10px 25px #4C4C4C;
@@ -1564,6 +1574,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.carousel-style{
 		margin-bottom:30px;
+	}
+	.header-message-style{
+		font-size:18px;
 	}
 	
 }
@@ -1750,7 +1763,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:200px;
 	}
 	.header-subtitle-style{
-		font-size:26px;
+		font-size:22px;
+		text-align:center;
 	}
 	.appdetail-feature-message-style{
 		font-size:18px;
@@ -1786,10 +1800,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		margin-bottom:10px;
 	}
 	.header-message-style{
-		font-size:18px;
+		font-size:15px;
+		line-height:26px;
 	}
 	.appdetail-feature-subtitle-style{
-		font-size:22px;
+		font-size:20px;
 	}
 	.bloc-title-style{
 		font-size:40px;
@@ -1830,6 +1845,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.carousel-style{
 		margin-bottom:20px;
+	}
+	.container-div-style{
+		width:100%;
+	}
+	.img-bloc-43-style{
+		width:270px;
+	}
+	.img-文字logo-大备份-style{
+		width:236px;
 	}
 	
 }
