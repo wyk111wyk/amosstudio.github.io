@@ -17,6 +17,8 @@ a,button{transition: background .3s ease-in-out;outline: none!important;} /* Pre
 a:hover{text-decoration: none; cursor:pointer;}
 .scroll-fx-lock-init{position:fixed!important;top: 0;bottom: 0;left: :0;right: 0;z-index:99999;} /* ScrollFX Lock */
 .blocs-grid-container{display: grid!important;grid-template-columns: 1fr 1fr;grid-template-rows: auto auto;column-gap: 1.5rem;row-gap: 1.5rem;} /* CSS Grid */
+nav .dropdown-menu .nav-link:not(.blocsapp-special-menu .nav-link){color:rgba(0,0,0,0.6)!important;} /* Maintain Downdown Menu Link Color in Navigation */
+[data-bs-theme="dark"] nav .dropdown-menu .nav-link:not(.blocsapp-special-menu .nav-link){color:var(--bs-dropdown-link-color)!important;} /* Maintain Downdown Menu Link Color in Navigation in Darkmode */
 
 
 /* Preloader */
