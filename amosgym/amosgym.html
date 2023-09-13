@@ -9,9 +9,9 @@
 	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/png" href="../favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?5578">
-	<link rel="stylesheet" type="text/css" href="../style.css?1114">
-	<link rel="stylesheet" type="text/css" href="../css/animate.min.css?4987">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1952">
+	<link rel="stylesheet" type="text/css" href="../style.css?1877">
+	<link rel="stylesheet" type="text/css" href="../css/animate.min.css?9273">
 	<link rel="stylesheet" type="text/css" href="../css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/all.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -101,7 +101,12 @@
 				</p>
 				<p class="header-message-style p-margin-bottom">
 					是时候让健身房和互联网结合起来了，糟糕的运动环境、烦人的销售话术、不专业的教练团队、老旧无用的器械设备，这一切都不那么令人愉悦。健身本来就已经是一件让人十分难以坚持的行为，工作和家庭中有数不清的阻碍，而健身房本应该是让这些阻碍隔绝在外，可以让人专心训练的场所。<br>AK23的创建就是为了让健身房回归原本的样子，汇聚真正热爱运动的一群人，没有推销、设备专业、性价比为纲。一切都仅需下载应用，就可以自助完成所有的选购和管理工作。
-				</p><a href="https://apps.apple.com/us/app/ak23%E8%BF%90%E5%8A%A8%E9%A6%86/id6443551105"><img src="../img/lazyload-ph.png" data-src="../img/appstore%20button.webp" class="img-fluid mx-auto d-block appstore-buttton-style lazyload" alt="appstore%20button" width="200" height="66"></a>
+				</p><a href="https://apps.apple.com/us/app/ak23%E8%BF%90%E5%8A%A8%E9%A6%86/id6443551105" target="_blank"><img src="../img/lazyload-ph.png" data-src="../img/appstore%20button.webp" class="img-fluid mx-auto d-block appstore-buttton-style lazyload" alt="appstore%20button" width="200" height="66"></a>
+				<h6 class="mb-4 mx-auto d-block text-lg-center">
+					<div class="text-center">
+						<a id="copyText" target="_blank">复制下载链接<br></a>
+					</div><br>
+				</h6>
 			</div>
 		</div>
 	</div>
@@ -473,14 +478,34 @@
 
 
 <!-- Additional JS -->
-<script src="../js/jquery.min.js?1598"></script>
-<script src="../js/bootstrap.bundle.min.js?2272"></script>
-<script src="../js/blocs.min.js?1171"></script>
+<script src="../js/jquery.min.js?5699"></script>
+<script src="../js/bootstrap.bundle.min.js?2611"></script>
+<script src="../js/blocs.min.js?1294"></script>
 <script src="../js/lazysizes.min.js" defer></script>
-<script src="../js/jquery.scrollify.js?7658"></script>
-<script src="../js/blocsaddons-markdown.js?1949"></script>
-<script src="../js/marked.min.js?1864"></script><!-- Additional JS END -->
+<script src="../js/jquery.scrollify.js?346"></script>
+<script src="../js/blocsaddons-markdown.js?4582"></script>
+<script src="../js/marked.min.js?4159"></script><!-- Additional JS END -->
 
+<script>
+document.getElementById("copyText").onclick = function() {
+	// 创建一个textarea元素，设置其值为你想要复制的文本
+	var textarea = document.createElement("textarea");
+	textarea.value = "https://apps.apple.com/us/app/ak23%E8%BF%90%E5%8A%A8%E9%A6%86/id6443551105";
+	document.body.appendChild(textarea);
+
+	// 选择textarea的文本
+	textarea.select();
+
+	// 执行复制命令
+	document.execCommand("copy");
+
+	// 删除textarea元素
+	document.body.removeChild(textarea);
+
+	// 弹出提示
+	alert("已成功复制链接，可粘贴至默认浏览器进行下载");
+}
+</script>
 
 </body>
 </html>
