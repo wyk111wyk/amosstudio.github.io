@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://www.amosstudio.com.cn/</loc>
-	<lastmod>2023-07-11</lastmod>
+	<lastmod>2024-11-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -58,7 +58,7 @@
 	<image:title>design</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/icon_AmosCar.webp</image:loc>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosTesla.webp</image:loc>
 	<image:title>icon_AmosCar</image:title>
 	</image:image>
 	<image:image>
@@ -66,23 +66,31 @@
 	<image:title>337 3379411_appstore-badge-app-store-logo-white</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/icon_AmosGym.webp</image:loc>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosGym.webp</image:loc>
 	<image:title>icon_AmosGym</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/icon_AmosChat.webp</image:loc>
-	<image:title>icon_AmosChat</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/icon_AmosVoice.webp</image:loc>
-	<image:title>icon_AmosVoice</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/icon_AmosTime.webp</image:loc>
 	<image:title>icon_AmosTime</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/icon_AmosElevation.webp</image:loc>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosPoem.webp</image:loc>
+	<image:title>icon_AmosElevation</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/TestFlight.webp</image:loc>
+	<image:title>337 3379411_appstore-badge-app-store-logo-white</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice.webp</image:loc>
+	<image:title>icon_AmosVoice</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosChat.webp</image:loc>
+	<image:title>icon_AmosChat</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosElevation.webp</image:loc>
 	<image:title>icon_AmosElevation</image:title>
 	</image:image>
 	<image:image>
@@ -90,26 +98,34 @@
 	<image:title>icon_AmosReviews</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosScoreboard.webp</image:loc>
+	<image:title>icon_AmosTime</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosMemory_light.webp</image:loc>
+	<image:title>icon_AmosTime</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosTime2.webp</image:loc>
+	<image:title>icon_AmosElevation</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosShortcut.webp</image:loc>
+	<image:title>icon_AmosElevation</image:title>
 	</image:image>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amoscar/amoscar.html</loc>
-	<lastmod>2023-07-11</lastmod>
+	<lastmod>2024-11-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/Device%20Combine.webp</image:loc>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosCar_device.webp</image:loc>
 	<image:title>iOS Hero</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/car01.webp</image:loc>
 	<image:title>car01</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/appstore%20button.webp</image:loc>
-	<image:title>appstore button</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/Siri使用.webp</image:loc>
@@ -132,10 +148,6 @@
 	<image:title>placeholder image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/截屏2021-08-24%20下午12.41.51.webp</image:loc>
-	<image:title>截屏2021 08-24 下午12.41.51</image:title>
-	</image:image>
-	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/Battery.webp</image:loc>
 	<image:title>Battery</image:title>
 	</image:image>
@@ -151,23 +163,15 @@
 	<image:loc>https://www.amosstudio.com.cn/img/Switch.webp</image:loc>
 	<image:title>Switch</image:title>
 	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
-	</image:image>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amostime/amostime.html</loc>
-	<lastmod>2023-07-11</lastmod>
+	<lastmod>2024-11-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/Device%20Combine%20AmosTime.webp</image:loc>
 	<image:title>iOS Hero</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/appstore%20button.webp</image:loc>
-	<image:title>appstore button</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/Tools.webp</image:loc>
@@ -178,20 +182,12 @@
 	<image:title>placeholder image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/Cards.webp</image:loc>
-	<image:title>编组 8</image:title>
-	</image:image>
-	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/Stats.webp</image:loc>
 	<image:title>placeholder image</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/Records.webp</image:loc>
 	<image:title>placeholder image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/Records.webp</image:loc>
-	<image:title>截屏2021 08-24 下午12.41.51</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/check.webp</image:loc>
@@ -209,27 +205,15 @@
 	<image:loc>https://www.amosstudio.com.cn/img/sync.webp</image:loc>
 	<image:title>Switch</image:title>
 	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Twitter Social Card Image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
-	</image:image>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosreview.html</loc>
-	<lastmod>2023-07-11</lastmod>
+	<lastmod>2024-11-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/Device%20Combine%20AmosReview.webp</image:loc>
 	<image:title>iOS Hero</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/appstore%20button.webp</image:loc>
-	<image:title>appstore button</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/widget.webp</image:loc>
@@ -243,64 +227,10 @@
 	<image:loc>https://www.amosstudio.com.cn/img/Uniform.webp</image:loc>
 	<image:title>Privacy</image:title>
 	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Twitter Social Card Image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
-	</image:image>
-</url>
-<url>
-	<loc>https://www.amosstudio.com.cn/amoselevation.html</loc>
-	<lastmod>2023-07-11</lastmod>
-	<changefreq>Weekly</changefreq>
-	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/Device%20Combine%20-%20Elevation.webp</image:loc>
-	<image:title>iOS Hero</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/appstore%20button.webp</image:loc>
-	<image:title>appstore button</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/Feature01.webp</image:loc>
-	<image:title>placeholder image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/Feature04.webp</image:loc>
-	<image:title>placeholder image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/Feature03.webp</image:loc>
-	<image:title>placeholder image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/Feature02.webp</image:loc>
-	<image:title>placeholder image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/Simple.webp</image:loc>
-	<image:title>Battery</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/Uniform.webp</image:loc>
-	<image:title>Privacy</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Twitter Social Card Image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
-	</image:image>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym.html</loc>
-	<lastmod>2023-07-11</lastmod>
+	<lastmod>2024-11-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -310,10 +240,6 @@
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/文字Logo%20大备份.webp</image:loc>
 	<image:title>文字Logo 大备份</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/appstore%20button.webp</image:loc>
-	<image:title>appstore button</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/gym_2.jpg</image:loc>
@@ -388,28 +314,12 @@
 	<image:title>gym_11</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_1.jpg</image:loc>
-	<image:title>gym_1</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_1.webp</image:loc>
-	<image:title>gym_1</image:title>
-	</image:image>
-	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/gym_4.jpg</image:loc>
 	<image:title>gym_4</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/gym_4.webp</image:loc>
 	<image:title>gym_4</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_5.jpg</image:loc>
-	<image:title>gym_5</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_5.webp</image:loc>
-	<image:title>gym_5</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/envelop.webp</image:loc>
@@ -435,159 +345,217 @@
 	<image:loc>https://www.amosstudio.com.cn/img/Banner05.webp</image:loc>
 	<image:title>Banner05</image:title>
 	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Twitter Social Card Image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
-	</image:image>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym-letter.html</loc>
-	<lastmod>2023-07-11</lastmod>
+	<lastmod>2024-11-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Twitter Social Card Image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
-	</image:image>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym-banner01.html</loc>
-	<lastmod>2023-07-11</lastmod>
+	<lastmod>2024-11-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/Banner01.webp</image:loc>
-	<image:title>Banner01</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Twitter Social Card Image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
-	</image:image>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym-banner02.html</loc>
-	<lastmod>2023-07-11</lastmod>
+	<lastmod>2024-11-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/Banner02.webp</image:loc>
-	<image:title>Banner02</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Twitter Social Card Image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
-	</image:image>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym-banner03.html</loc>
-	<lastmod>2023-07-11</lastmod>
+	<lastmod>2024-11-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/Banner03.webp</image:loc>
-	<image:title>Banner03</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Twitter Social Card Image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
-	</image:image>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym-banner04.html</loc>
-	<lastmod>2023-07-11</lastmod>
+	<lastmod>2024-11-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/Banner04.webp</image:loc>
-	<image:title>Banner04</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Twitter Social Card Image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
-	</image:image>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym-banner05.html</loc>
-	<lastmod>2023-07-11</lastmod>
+	<lastmod>2024-11-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/Banner05.webp</image:loc>
-	<image:title>Banner05</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Twitter Social Card Image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
-	</image:image>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym-actiondeal.html</loc>
-	<lastmod>2023-07-11</lastmod>
+	<lastmod>2024-11-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Twitter Social Card Image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
-	</image:image>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym-memberdeal.html</loc>
-	<lastmod>2023-07-11</lastmod>
+	<lastmod>2024-11-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Twitter Social Card Image</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
-	</image:image>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym-privacydeal.html</loc>
-	<lastmod>2023-07-11</lastmod>
+	<lastmod>2024-11-05</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>https://www.amosstudio.com.cn/simple-amosvoice.html</loc>
+	<lastmod>2024-11-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Twitter Social Card Image</image:title>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice-SS1.jpg</image:loc>
+	<image:title>AmosVoice SS1</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/</image:loc>
-	<image:title>Facebook Social Card Image</image:title>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice-SS1.webp</image:loc>
+	<image:title>AmosVoice SS1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice-SS2.jpg</image:loc>
+	<image:title>AmosVoice SS2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice-SS2.webp</image:loc>
+	<image:title>AmosVoice SS2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice-SS3.jpg</image:loc>
+	<image:title>AmosVoice SS3</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice-SS3.webp</image:loc>
+	<image:title>AmosVoice SS3</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice-SS4.jpg</image:loc>
+	<image:title>AmosVoice SS4</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice-SS4.webp</image:loc>
+	<image:title>AmosVoice SS4</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.amosstudio.com.cn/amospoem.html</loc>
+	<lastmod>2024-11-05</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosPoem-bg.webp</image:loc>
+	<image:title>iOS Hero</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosPoem_01.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosPoem_01备份.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosPoem_01备份%202.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosPoem_01备份%203.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosPoem_01备份%204.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosPoem_01备份%205.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosPoem_01备份%206.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosPoem_01备份%207.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosPoem_01备份%208.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://www.amosstudio.com.cn/amoschat.html</loc>
+	<lastmod>2024-11-05</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosChat-bg.webp</image:loc>
+	<image:title>iOS Hero</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_1.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_01备份%207.webp</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_01.webp</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_01备份.webp</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_01备份%204.webp</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_01备份%202.webp</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_01备份%203.webp</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_01备份%206.webp</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_01备份%205.webp</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_iPad2.webp</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_iPad4.webp</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_iPad3.webp</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_iPad1.webp</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_mac2.webp</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_mac3.webp</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_mac1.webp</image:loc>
+	<image:title>placeholder image-sq</image:title>
 	</image:image>
 </url>
 </urlset>

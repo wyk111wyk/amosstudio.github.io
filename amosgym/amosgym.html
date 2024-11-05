@@ -9,9 +9,9 @@
 	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/png" href="../favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1952">
-	<link rel="stylesheet" type="text/css" href="../style.css?1877">
-	<link rel="stylesheet" type="text/css" href="../css/animate.min.css?9273">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css?1009">
+	<link rel="stylesheet" type="text/css" href="../style.css?6551">
+	<link rel="stylesheet" type="text/css" href="../css/animate.min.css?821">
 	<link rel="stylesheet" type="text/css" href="../css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/all.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -56,19 +56,13 @@
 										<a href="#" class="btn dropdown-toggle btn-lg btn-d btn-style-none nav-button-style" data-toggle="dropdown" aria-expanded="false">应用</a>
 										<ul class="dropdown-menu none animSpeedFast animated fadeIn" role="menu" data-appear-anim-style="fadeIn">
 											<li>
-												<a href="../amoscar/amoscar.html" class="dropdown-item a-block ltc-7077">Amos特电车</a>
+												<a href="#" class="dropdown-item a-block" data-scroll-speed="1000" onclick="scrollToTarget('#bloc-7',this)">已上线应用</a>
 											</li>
 											<li>
-												<a href="." class="dropdown-item a-block ltc-580">AK23运动馆</a>
+												<a href="#" class="dropdown-item a-block ltc-580" data-scroll-speed="1000" onclick="scrollToTarget('#bloc-9',this)">测试中应用</a>
 											</li>
 											<li>
-												<a href="../amostime/amostime.html" class="dropdown-item a-block ltc-4237">Amos时间志</a>
-											</li>
-											<li>
-												<a href="../amosreview.html" class="dropdown-item a-block ltc-2242">Amos评论集</a>
-											</li>
-											<li>
-												<a href="../amoselevation.html" class="dropdown-item a-block ltc-1644">Amos查海拔</a>
+												<a href="#" class="dropdown-item a-block ltc-4237" data-scroll-speed="1000" onclick="scrollToTarget('#bloc-11',this)">实验性应用</a>
 											</li>
 										</ul>
 									</div>
@@ -87,25 +81,26 @@
 
 <!-- header -->
 <div class="bloc tc-1869 bgc-2310 l-bloc" id="header">
-	<div class="container bloc-md-md bloc-md-sm bloc-sm">
+	<div class="container bloc-md-md bloc-sm bloc-sm-sm">
 		<div class="row">
 			<div class="align-self-center col-lg-5 col-md-5">
-				<img src="../img/lazyload-ph.png" data-src="../img/amosgym-1.webp" class="img-fluid mx-auto d-block header-image-style img-amosgym-style lazyload" alt="iOS Hero" width="377" height="728">
+				<img src="../img/lazyload-ph.png" data-src="../img/amosgym-1.webp" class="img-fluid mx-auto d-block header-image-gym-style lazyload" alt="iOS Hero" width="458" height="883">
 			</div>
-			<div class="offset-lg-0 col-lg-7 align-self-center text-lg-left col-md-7 offset-md-0">
+			<div class="offset-lg-0 col-lg-7 align-self-center text-lg-left col-md-7 offset-md-0 pl-0 pr-0">
 				<img src="../img/lazyload-ph.png" data-src="../img/文字Logo%20大备份.webp" class="img-fluid img-文字logo-大备份-style mx-auto d-block lazyload" alt="文字Logo%20大备份" width="474" height="173">
-				<h1 class="mg-md header-subtitle-style tc-1869 text-sm-center mx-auto d-block">
+				<h1 class="tc-1869 text-sm-center mx-auto d-block header-subtitle-gym-style text-center">
 					24小时自助专业级运动馆
 				</h1>
 				<p class="mb-4">
 				</p>
 				<p class="header-message-style p-margin-bottom">
 					是时候让健身房和互联网结合起来了，糟糕的运动环境、烦人的销售话术、不专业的教练团队、老旧无用的器械设备，这一切都不那么令人愉悦。健身本来就已经是一件让人十分难以坚持的行为，工作和家庭中有数不清的阻碍，而健身房本应该是让这些阻碍隔绝在外，可以让人专心训练的场所。<br>AK23的创建就是为了让健身房回归原本的样子，汇聚真正热爱运动的一群人，没有推销、设备专业、性价比为纲。一切都仅需下载应用，就可以自助完成所有的选购和管理工作。
-				</p><a href="https://apps.apple.com/us/app/ak23%E8%BF%90%E5%8A%A8%E9%A6%86/id6443551105" target="_blank"><img src="../img/lazyload-ph.png" data-src="../img/appstore%20button.webp" class="img-fluid mx-auto d-block appstore-buttton-style lazyload" alt="appstore%20button" width="200" height="66"></a>
-				<h6 class="mb-4 mx-auto d-block text-lg-center">
+				</p><a href="https://apps.apple.com/us/app/ak23%E8%BF%90%E5%8A%A8%E9%A6%86/id6443551105" target="_blank"><img src="../img/lazyload-ph.png" data-src="../img/appstore%20button.webp" class="img-fluid mx-auto d-block appstore-buttton-style lazyload" alt="appstore%20button" width="300" height="100"></a>
+				<h6 class="mb-4 mx-auto d-block text-lg-center" id="copytext">
 					<div class="text-center">
-						<a id="copyText" target="_blank">复制下载链接<br></a>
-					</div><br>
+						<div><a id="copyText" target="_blank">复制下载链接</a>
+						</div>
+					</div>
 				</h6>
 			</div>
 		</div>
@@ -118,7 +113,7 @@
 	<div class="container bloc-sm">
 		<div class="row voffset-clear-xs">
 			<div class="col-12 text-lg-center offset-lg-2 col-lg-8">
-				<div id="carousel-36756" class="carousel slide carousel-style" data-ride="carousel" data-interval="4000">
+				<div id="carousel-36756" class="carousel slide carousel-style mx-auto d-block" data-ride="carousel" data-interval="4000">
 					<ol class="carousel-indicators">
 						<li data-target="#carousel-36756" data-slide-to="0" class="active">
 						</li>
@@ -199,10 +194,10 @@
 	<div class="container bloc-sm-lg bloc-sm-md bloc-sm-sm bloc-sm">
 		<div class="row">
 			<div class="col-md-6 col-sm-6 col-6 bloc-padding-left">
-				<picture><source type="image/webp" srcset="../img/lazyload-ph.png" data-srcset="../img/gym_1.webp"><img src="../img/lazyload-ph.png" data-src="../img/gym_1.jpg" class="img-fluid mx-auto d-block img-frame lazyload" alt="gym_1" width="525" height="515"></picture>
+				<picture><source type="image/webp" srcset="../img/lazyload-ph.png" data-srcset="../img/gym_1.webp"><img src="../img/lazyload-ph.png" data-src="../img/gym_1.jpg" class="img-fluid mx-auto d-block img-frame lazyload" alt="gym_1" width="525" height="525"></picture>
 			</div>
 			<div class="col-md-6 col-sm-6 col-6 bloc-padding-left">
-				<picture><source type="image/webp" srcset="../img/lazyload-ph.png" data-srcset="../img/gym_14.webp"><img src="../img/lazyload-ph.png" data-src="../img/gym_14.jpg" class="img-fluid d-block img-frame img-padding-left lazyload" alt="gym_14" width="525" height="515"></picture>
+				<picture><source type="image/webp" srcset="../img/lazyload-ph.png" data-srcset="../img/gym_14.webp"><img src="../img/lazyload-ph.png" data-src="../img/gym_14.jpg" class="img-fluid d-block img-frame img-padding-left lazyload" alt="gym_14" width="525" height="525"></picture>
 			</div>
 		</div>
 	</div>
@@ -214,10 +209,10 @@
 	<div class="container bloc-sm-lg bloc-sm-md bloc-sm-sm bloc-sm">
 		<div class="row">
 			<div class="col-md-6 col-sm-6 col-6 bloc-padding-left">
-				<picture><source type="image/webp" srcset="../img/lazyload-ph.png" data-srcset="../img/gym_4.webp"><img src="../img/lazyload-ph.png" data-src="../img/gym_4.jpg" class="img-fluid mx-auto d-block img-frame lazyload" alt="gym_4" width="525" height="515"></picture>
+				<picture><source type="image/webp" srcset="../img/lazyload-ph.png" data-srcset="../img/gym_4.webp"><img src="../img/lazyload-ph.png" data-src="../img/gym_4.jpg" class="img-fluid mx-auto d-block img-frame lazyload" alt="gym_4" width="525" height="525"></picture>
 			</div>
 			<div class="col-md-6 col-sm-6 col-6 bloc-padding-left">
-				<picture><source type="image/webp" srcset="../img/lazyload-ph.png" data-srcset="../img/gym_5.webp"><img src="../img/lazyload-ph.png" data-src="../img/gym_5.jpg" class="img-fluid mx-auto d-block img-frame lazyload" alt="gym_5" width="525" height="515"></picture>
+				<picture><source type="image/webp" srcset="../img/lazyload-ph.png" data-srcset="../img/gym_5.webp"><img src="../img/lazyload-ph.png" data-src="../img/gym_5.jpg" class="img-fluid mx-auto d-block img-frame lazyload" alt="gym_5" width="525" height="525"></picture>
 			</div>
 		</div>
 	</div>
@@ -261,7 +256,7 @@
 	<div class="container bloc-sm-sm bloc-sm">
 		<div class="row">
 			<div class="col-md-6 align-self-center">
-				<img src="../img/lazyload-ph.png" data-src="../img/Banner01.webp" class="img-fluid mx-auto d-block img-frame-md lazyload" alt="Banner01" width="537" height="277">
+				<img src="../img/lazyload-ph.png" data-src="../img/Banner01.webp" class="img-fluid mx-auto d-block img-frame-md lazyload" alt="Banner01" width="537" height="286">
 			</div>
 			<div class="col-md-6 align-self-center text-lg-center text-md-center text-sm-center text-center">
 				<h2 class="mg-md tc-1869">
@@ -284,7 +279,7 @@
 	<div class="container bloc-md-sm bloc-sm">
 		<div class="row">
 			<div class="col-md-6 align-self-center">
-				<img src="../img/lazyload-ph.png" data-src="../img/Banner02.webp" class="img-fluid mx-auto d-block img-frame-md lazyload" alt="Banner02" width="537" height="277">
+				<img src="../img/lazyload-ph.png" data-src="../img/Banner02.webp" class="img-fluid mx-auto d-block img-frame-md lazyload" alt="Banner02" width="537" height="286">
 			</div>
 			<div class="col-md-6 align-self-center text-lg-center text-md-center text-sm-center text-center">
 				<h2 class="mg-md tc-1869">
@@ -307,7 +302,7 @@
 	<div class="container bloc-sm-sm bloc-sm">
 		<div class="row">
 			<div class="col-md-6 align-self-center">
-				<img src="../img/lazyload-ph.png" data-src="../img/Banner03.webp" class="img-fluid mx-auto d-block img-frame-md lazyload" alt="Banner03" width="537" height="277">
+				<img src="../img/lazyload-ph.png" data-src="../img/Banner03.webp" class="img-fluid mx-auto d-block img-frame-md lazyload" alt="Banner03" width="537" height="286">
 			</div>
 			<div class="col-md-6 align-self-center text-lg-center text-md-center text-sm-center text-center">
 				<h2 class="mg-md tc-1869">
@@ -330,7 +325,7 @@
 	<div class="container bloc-sm-sm bloc-sm">
 		<div class="row">
 			<div class="col-md-6 align-self-center">
-				<img src="../img/lazyload-ph.png" data-src="../img/Banner04.webp" class="img-fluid mx-auto d-block img-frame-md lazyload" alt="Banner04" width="537" height="277">
+				<img src="../img/lazyload-ph.png" data-src="../img/Banner04.webp" class="img-fluid mx-auto d-block img-frame-md lazyload" alt="Banner04" width="537" height="286">
 			</div>
 			<div class="col-md-6 align-self-center text-lg-center text-md-center text-sm-center text-center">
 				<h2 class="mg-md tc-1869">
@@ -353,7 +348,7 @@
 	<div class="container bloc-sm-sm bloc-sm">
 		<div class="row">
 			<div class="col-md-6 align-self-center">
-				<img src="../img/lazyload-ph.png" data-src="../img/Banner05.webp" class="img-fluid mx-auto d-block img-frame-md lazyload" alt="Banner05" width="537" height="277">
+				<img src="../img/lazyload-ph.png" data-src="../img/Banner05.webp" class="img-fluid mx-auto d-block img-frame-md lazyload" alt="Banner05" width="537" height="286">
 			</div>
 			<div class="col-md-6 align-self-center text-lg-center text-md-center text-sm-center text-center">
 				<h2 class="mg-md tc-1869">
@@ -431,7 +426,7 @@
 					关于
 				</h4><a href="../" class="a-btn a-block about-subtitle-style text-center text-lg-left text-md-left text-sm-left">团队</a><a href="#" class="a-btn a-block about-subtitle-style text-lg-left text-md-left text-sm-left text-center" data-scroll-speed="1000" onclick="scrollToTarget('#app-lists',this)">产品</a>
 			</div>
-			<div class="col-md-2 col-sm-3">
+			<div class="col-md-2 col-sm-3 pl-md-0">
 				<h4 class="mg-md text-sm-left text-center about-title-style">
 					条款
 				</h4><a href="../amosgym-memberdeal.html" class="a-btn a-block about-subtitle-style" target="_blank">AK23会员协议</a><a href="../amosgym-privacydeal.html" class="a-btn a-block about-subtitle-style">隐私条款</a>
@@ -441,17 +436,17 @@
 					联系我们
 				</h4>
 				<div class="row">
-					<div class="offset-sm-0 connect-social-icon-style col-4 col-sm-3">
+					<div class="offset-sm-0 connect-social-icon-style col-4 col-sm-3 col-lg-2">
 						<div class="text-center">
-							<a href="https://weibo.com/p/1005051211547013" target="_blank"><span class="fab fa-weibo icon-sm"></span></a>
+							<a href="https://www.xiaohongshu.com/user/profile/604e0e3c0000000001001333?xhsshare=CopyLink&appuid=604e0e3c0000000001001333&apptime=1730450557&share_id=b0eb0aaa1b5a4fffac956d2dc49f786c" target="_blank"><img src="../img/lazyload-ph.png" data-src="../img/Xiaohongshu.webp" class="img-fluid mx-auto d-block img-xiaohongs-style lazyload" alt="Xiaohongshu" width="20" height="20"></a>
 						</div>
 					</div>
-					<div class="offset-sm-0 connect-social-icon-style col-4 col-sm-3">
+					<div class="offset-sm-0 connect-social-icon-style col-4 col-sm-3 col-lg-2">
 						<div class="text-center">
-							<a href="https://www.zhihu.com/people/amos-9/answers/by_votes" target="_blank"><span class="icon-sm fab fa-zhihu"></span></a>
+							<a href="https://github.com/wyk111wyk" target="_blank"><span class="icon-sm fab fa-github"></span></a>
 						</div>
 					</div>
-					<div class="connect-social-icon-style col-4 col-sm-3">
+					<div class="connect-social-icon-style col-4 col-sm-3 col-lg-2">
 						<div class="text-center">
 							<a href="mailto:wyk111wyk@me.com"><span class="far fa-envelope icon-sm"></span></a>
 						</div>
@@ -463,9 +458,11 @@
 			<div class="col">
 				<div class="divider-h">
 				</div>
-				<p class="mx-auto d-block text-lg-center text-md-center text-sm-center text-center">
+				<p class="mx-auto d-block text-lg-center text-md-center text-sm-center text-center mb-lg-0 mb-0">
 					Copyright © 2021-2023 AmosStudio<br> <a href="https://beian.miit.gov.cn" target="_blank">浙ICP备 2022027986号</a>
 				</p>
+				<div><a align="center" href="\&quot;https://beian.mps.gov.cn/#/query/webSearch?code=33068102000965\&quot;" rel="\&quot;noreferrer\&quot;" target="\&quot;_blank\&quot;">浙公网安备 33068102000965</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -478,13 +475,14 @@
 
 
 <!-- Additional JS -->
-<script src="../js/jquery.min.js?5699"></script>
-<script src="../js/bootstrap.bundle.min.js?2611"></script>
-<script src="../js/blocs.min.js?1294"></script>
+<script src="../js/jquery.min.js?3299"></script>
+<script src="../js/bootstrap.bundle.min.js?5786"></script>
+<script src="../js/blocs.min.js?6229"></script>
 <script src="../js/lazysizes.min.js" defer></script>
-<script src="../js/jquery.scrollify.js?346"></script>
-<script src="../js/blocsaddons-markdown.js?4582"></script>
-<script src="../js/marked.min.js?4159"></script><!-- Additional JS END -->
+<script src="../js/jquery.scrollify.js?2927"></script>
+<script src="../js/blocsaddons-markdown.js?5772"></script>
+<script src="../js/marked.min.js?4583"></script>
+<script src="../js/custom-bric-js.js?8258"></script><!-- Additional JS END -->
 
 <script>
 document.getElementById("copyText").onclick = function() {
@@ -506,6 +504,5 @@ document.getElementById("copyText").onclick = function() {
 	alert("已成功复制链接，可粘贴至默认浏览器进行下载");
 }
 </script>
-
 </body>
 </html>

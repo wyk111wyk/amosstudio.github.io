@@ -14,9 +14,9 @@
 	<meta property="og:url" content="https://www.amosstudio.com.cn/index.html"> 
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?5578">
-	<link rel="stylesheet" type="text/css" href="style.css?1114">
-	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?4987">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?1009">
+	<link rel="stylesheet" type="text/css" href="style.css?6551">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?821">
 	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -61,19 +61,13 @@
 										<a href="#" class="btn dropdown-toggle btn-lg btn-d btn-style-none nav-button-style" data-toggle="dropdown" aria-expanded="false">应用</a>
 										<ul class="dropdown-menu none animSpeedFast animated fadeIn" role="menu" data-appear-anim-style="fadeIn">
 											<li>
-												<a href="./amoscar/amoscar.html" class="dropdown-item a-block ltc-7077">Amos特电车</a>
+												<a href="#" class="dropdown-item a-block" data-scroll-speed="1000" onclick="scrollToTarget('#bloc-7',this)">已上线应用</a>
 											</li>
 											<li>
-												<a href="./amosgym/amosgym.html" class="dropdown-item a-block ltc-580">AK23运动馆</a>
+												<a href="#" class="dropdown-item a-block ltc-580" data-scroll-speed="1000" onclick="scrollToTarget('#bloc-9',this)">测试中应用</a>
 											</li>
 											<li>
-												<a href="./amostime/amostime.html" class="dropdown-item a-block ltc-4237">Amos时间志</a>
-											</li>
-											<li>
-												<a href="amosreview.html" class="dropdown-item a-block ltc-2242">Amos评论集</a>
-											</li>
-											<li>
-												<a href="amoselevation.html" class="dropdown-item a-block ltc-1644">Amos查海拔</a>
+												<a href="#" class="dropdown-item a-block ltc-4237" data-scroll-speed="1000" onclick="scrollToTarget('#bloc-11',this)">实验性应用</a>
 											</li>
 										</ul>
 									</div>
@@ -92,10 +86,10 @@
 
 <!-- title -->
 <div class="bloc tc-1869 none full-width-bloc l-bloc" id="title">
-	<div class="container bloc-sm bloc-sm-sm bloc-sm-lg bloc-sm-md">
+	<div class="container bloc-sm-sm bloc-sm-lg bloc-sm-md bloc-no-padding">
 		<div class="row">
-			<div class="offset-sm-0 col">
-				<img src="img/lazyload-ph.png" data-src="img/Banner-big.webp" class="img-fluid mx-auto title-image-style d-md-block  d-none lazyload" alt="TitleImage" width="2210" height="962"><img src="img/lazyload-ph.png" data-src="img/Banner-medium.webp" class="img-fluid mx-auto  d-md-none d-block lazyload" alt="TitleImage" width="2210" height="1623">
+			<div class="offset-sm-0 col pl-0 pr-0">
+				<img src="img/lazyload-ph.png" data-src="img/Banner-big.webp" class="img-fluid mx-auto title-image-style d-md-block  d-none lazyload" alt="TitleImage" width="2240" height="975"><img src="img/lazyload-ph.png" data-src="img/Banner-medium.webp" class="img-fluid mx-auto  d-md-none d-block lazyload" alt="TitleImage" width="2240" height="1646">
 				<h1 class="btn-resize-mode mg-md mx-auto d-block sm-shadow tc-1869 text-lg-center text-md-center text-sm-center text-center h1-subtitle-style">
 					用App解决生活中的
 				</h1>
@@ -151,7 +145,7 @@
 				</h3>
 			</div>
 			<div class="col-md-6 col-lg-3 bloc-0-padding-right col-sm-6 col-6">
-				<img src="img/lazyload-ph.png" data-src="img/iPad%20Air.webp" class="img-fluid mx-auto d-block devide-icon-ipad-style lazyload" alt="iPad%20Air" width="109" height="151">
+				<img src="img/lazyload-ph.png" data-src="img/iPad%20Air.webp" class="img-fluid mx-auto d-block devide-icon-ipad-style img-ipad-air-style lazyload" alt="iPad%20Air" width="137" height="189">
 				<h3 class="mg-md text-center tc-1869 h3-margin-top">
 					iPadOS
 				</h3>
@@ -259,7 +253,7 @@
 			<div class="bloc-design-padding-left col-lg-7 col-md-12">
 				<img src="img/lazyload-ph.png" data-src="img/iOS-Hero.webp" class="img-fluid design-device-style mx-auto d-block img-style lazyload" alt="iOS Hero" width="648" height="359">
 			</div>
-			<div class="offset-md-1 col-md-10 col-sm-10 offset-sm-1 offset-1 col-10 offset-lg-0 align-self-center col-lg-5">
+			<div class="offset-md-1 col-md-10 col-sm-10 offset-sm-1 offset-1 col-10 offset-lg-0 align-self-center col-lg-5 pl-0 pr-0">
 				<img src="img/lazyload-ph.png" data-src="img/design.webp" class="img-fluid mg-sm mx-auto d-block design-logo-style lazyload" alt="design" width="360" height="87">
 				<h2 class="btn-resize-mode mg-lg tc-1869 design-title-style text-lg-center text-md-center text-sm-center text-center mx-auto d-block">
 					接近原生的设计
@@ -267,17 +261,17 @@
 				<ul class="list-unstyled">
 					<li>
 						<h4 class="mg-md tc-1869 design-list-style text-lg-center text-md-center text-sm-center text-left mx-auto d-block">
-							<span class="ion ion-arrow-right-b"></span>&nbsp;风格与系统保持一致
+							<span class="ion ion-leaf"></span>&nbsp;简约直观的现代设计<br>
 						</h4>
 					</li>
 					<li>
 						<h4 class="mg-md h4-&nbsp;减少用户的学习成本-padding-left tc-1869 design-list-style text-lg-center text-md-center text-sm-center mx-auto d-block">
-							<span class="ion ion-arrow-right-b"></span>&nbsp;减少用户的学习成本<br>
+							<span class="ion ion-heart"></span>&nbsp;减少用户的学习成本<br>
 						</h4>
 					</li>
 					<li>
 						<h4 class="mg-md h4-&nbsp;聚焦解决核心的问题-padding-left tc-1869 design-list-style text-lg-center text-md-center text-sm-center mx-auto d-block">
-							<span class="ion ion-arrow-right-b"></span>&nbsp;聚焦解决核心的问题<br>
+							<span class="ion ion-ionic"></span>&nbsp;专注的解决核心问题<br>
 						</h4>
 					</li>
 				</ul>
@@ -289,7 +283,7 @@
 
 <!-- app-lists -->
 <div class="bloc l-bloc" id="app-lists">
-	<div class="container bloc-md-md bloc-sm-sm bloc-sm bloc-sm-lg">
+	<div class="container bloc-md-md bloc-sm-sm bloc-sm-lg bloc-sm">
 		<div class="row">
 			<div class="col">
 				<h1 class="mg-md text-lg-center btn-resize-mode mx-auto d-block applist-title-style text-md-center tc-1869" id="applist-title">
@@ -302,87 +296,204 @@
 <!-- app-lists END -->
 
 <!-- bloc-7 -->
-<div class="bloc l-bloc none" id="bloc-7">
-	<div class="container bloc-sm-lg bloc-sm">
-		<div class="row voffset">
-			<div class="col-lg-3 col-md-6 text-center offset-0 bloc-0-padding-left col-sm-6 col-6">
-				<a href="./amoscar/amoscar.html"><img src="img/lazyload-ph.png" data-src="img/icon_AmosCar.webp" class="img-fluid mx-auto d-block img-frame-md img-icon-amosvoi-style lazyload" alt="icon_AmosCar" width="245" height="227"></a>
-				<h3 class="mg-md tc-7077">
-					Amos特电车
-				</h3>
-				<p>
-					在所有的苹果设备中管理特斯拉
-				</p><a href="https://apps.apple.com/us/app/amoscar-for-tesla/id1548183212"><img src="img/lazyload-ph.png" data-src="img/appstore%20button.webp" class="img-fluid mx-auto d-block appstore-buttton-style lazyload" alt="337 3379411_appstore-badge-app-store-logo-white" width="200" height="66"></a>
-			</div>
-			<div class="col-lg-3 col-md-6 text-center bloc-0-padding-left offset-sm-0 col-sm-6 col-6">
-				<a href="./amosgym/amosgym.html"><img src="img/lazyload-ph.png" data-src="img/icon_AmosGym.webp" class="img-fluid mx-auto d-block img-frame-md img-icon-amosvoi-style lazyload" alt="icon_AmosGym" width="245" height="227"></a>
-				<h3 class="mg-md tc-580">
-					AK23运动馆
-				</h3>
-				<p>
-					24小时自助专业级运动馆
-				</p><a href="https://apps.apple.com/us/app/ak23%E8%BF%90%E5%8A%A8%E9%A6%86/id6443551105"><img src="img/lazyload-ph.png" data-src="img/appstore%20button.webp" class="img-fluid mx-auto d-block appstore-buttton-style lazyload" alt="337 3379411_appstore-badge-app-store-logo-white" width="200" height="66"></a>
-			</div>
-			<div class="col-lg-3 col-md-6 text-center bloc-0-padding-left col-sm-6 col-6">
-				<img src="img/lazyload-ph.png" data-src="img/icon_AmosChat.webp" class="img-fluid mx-auto d-block img-frame-md img-icon-amosvoi-style lazyload" alt="icon_AmosChat" width="245" height="227">
-				<h3 class="mg-md tc-2242">
-					AmosChat
-				</h3>
-				<p>
-					体验绝佳的大语言AI使用客户端
-				</p><img src="img/lazyload-ph.png" data-src="img/appstore%20button.webp" class="img-fluid mx-auto d-block appstore-buttton-style lazyload" alt="337 3379411_appstore-badge-app-store-logo-white" width="200" height="66">
-				<p>
-					即将上线
+<div class="bloc l-bloc" id="bloc-7">
+	<div class="container bloc-md-md bloc-sm-sm bloc-sm bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-12 offset-lg-2 col-lg-8">
+				<h2 class="mg-md text-center app-list-subtitle btn-resize-mode">
+					<strong>已上线应用</strong>
+				</h2>
+				<p class="text-center btn-resize-mode p-3-style">
+					用户可以在App Store搜索下载
 				</p>
-			</div>
-			<div class="col-lg-3 col-md-6 text-center bloc-0-padding-left col-sm-6 col-6">
-				<img src="img/lazyload-ph.png" data-src="img/icon_AmosVoice.webp" class="img-fluid mx-auto d-block img-frame-md img-icon-amosvoi-style lazyload" alt="icon_AmosVoice" width="245" height="227">
-				<h3 class="mg-md tc-1037">
-					Amos朗读者
-				</h3>
-				<p>
-					神经网络驱动的文字转语音
-				</p><img src="img/lazyload-ph.png" data-src="img/appstore%20button.webp" class="img-fluid mx-auto d-block appstore-buttton-style lazyload" alt="337 3379411_appstore-badge-app-store-logo-white" width="200" height="66">
-				<p>
-					即将上线
-				</p>
-			</div>
-		</div>
-		<div class="row voffset">
-			<div class="col-lg-3 col-md-6 text-center bloc-0-padding-left col-sm-6 col-6">
-				<a href="./amostime/amostime.html"><img src="img/lazyload-ph.png" data-src="img/icon_AmosTime.webp" class="img-fluid mx-auto d-block img-frame-md img-icon-amosvoi-style lazyload" alt="icon_AmosTime" width="245" height="227"></a>
-				<h3 class="mg-md tc-4237">
-					Amos时间志
-				</h3>
-				<p>
-					时间管理者的全能工具箱
-				</p><a href="https://apps.apple.com/us/app/amostime/id1178435872"><img src="img/lazyload-ph.png" data-src="img/appstore%20button.webp" class="img-fluid mx-auto d-block appstore-buttton-style lazyload" alt="337 3379411_appstore-badge-app-store-logo-white" width="200" height="66"></a>
-			</div>
-			<div class="col-lg-3 col-md-6 text-center bloc-0-padding-left col-sm-6 col-6">
-				<a href="amoselevation.html"><img src="img/lazyload-ph.png" data-src="img/icon_AmosElevation.webp" class="img-fluid mx-auto d-block img-frame-md img-icon-amosvoi-style lazyload" alt="icon_AmosElevation" width="245" height="227"></a>
-				<h3 class="mg-md tc-1644">
-					Amos查海拔
-				</h3>
-				<p>
-					查询地图上任意点的海拔
-				</p><img src="img/lazyload-ph.png" data-src="img/appstore%20button.webp" class="img-fluid mx-auto d-block appstore-buttton-style lazyload" alt="337 3379411_appstore-badge-app-store-logo-white" width="200" height="66">
-				<p>
-					即将上线
-				</p>
-			</div>
-			<div class="col-lg-3 col-md-6 text-center bloc-0-padding-left col-sm-6 col-6">
-				<a href="amosreview.html"><img src="img/lazyload-ph.png" data-src="img/icon_AmosReviews.webp" class="img-fluid mx-auto d-block img-frame-md img-icon-amosvoi-style lazyload" alt="icon_AmosReviews" width="245" height="227"></a>
-				<h3 class="mg-md tc-7290">
-					Amos评论集
-				</h3>
-				<p>
-					在小组件查看AppStore内的用户评论
-				</p><a href="https://apps.apple.com/us/app/amosreview/id1544718542"><img src="img/lazyload-ph.png" data-src="img/appstore%20button.webp" class="img-fluid mx-auto d-block appstore-buttton-style lazyload" alt="337 3379411_appstore-badge-app-store-logo-white" width="200" height="66"></a>
 			</div>
 		</div>
 	</div>
 </div>
 <!-- bloc-7 END -->
+
+<!-- bloc-7 -->
+<div class="bloc l-bloc none" id="bloc-7">
+	<div class="container bloc-sm-lg bloc-no-padding">
+		<div class="row voffset">
+			<div class="col-lg-3 col-md-6 text-center offset-0 bloc-0-padding-left col-sm-6 col-6">
+				<a href="./amoscar/amoscar.html"><img src="img/lazyload-ph.png" data-src="img/AmosTesla.webp" class="img-fluid mx-auto d-block img-frame-md img-icon-amosvoi-style lazyload" alt="icon_AmosCar" width="245" height="245"></a>
+				<h3 class="mg-md tc-7077">
+					Amos特电车
+				</h3>
+				<p>
+					用现代的方式查看车辆信息
+				</p><a href="https://apps.apple.com/us/app/amoscar-for-tesla/id1548183212"><img src="img/lazyload-ph.png" data-src="img/appstore%20button.webp" class="img-fluid mx-auto d-block appstore-buttton-style lazyload" alt="337 3379411_appstore-badge-app-store-logo-white" width="263" height="87"></a>
+			</div>
+			<div class="col-lg-3 col-md-6 text-center bloc-0-padding-left offset-sm-0 col-sm-6 col-6">
+				<a href="./amosgym/amosgym.html"><img src="img/lazyload-ph.png" data-src="img/AmosGym.webp" class="img-fluid mx-auto d-block img-frame-md img-icon-amosvoi-style lazyload" alt="icon_AmosGym" width="245" height="245"></a>
+				<h3 class="mg-md tc-580">
+					AK23运动馆
+				</h3>
+				<p>
+					24小时自助专业级运动馆
+				</p><a href="https://apps.apple.com/us/app/ak23%E8%BF%90%E5%8A%A8%E9%A6%86/id6443551105"><img src="img/lazyload-ph.png" data-src="img/appstore%20button.webp" class="img-fluid mx-auto d-block appstore-buttton-style lazyload" alt="337 3379411_appstore-badge-app-store-logo-white" width="263" height="87"></a>
+			</div>
+			<div class="col-lg-3 col-md-6 text-center bloc-0-padding-left col-sm-6 col-6">
+				<a href="./amostime/amostime.html"><img src="img/lazyload-ph.png" data-src="img/icon_AmosTime.webp" class="img-fluid mx-auto d-block img-frame-md img-icon-amosvoi-style lazyload" alt="icon_AmosTime" width="245" height="245"></a>
+				<h3 class="mg-md tc-4237">
+					Amos时间志
+				</h3>
+				<p>
+					时间管理者的全能工具箱
+				</p>
+				<p>
+					二代正在制作中
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-7 END -->
+
+<!-- bloc-9 -->
+<div class="bloc l-bloc" id="bloc-9">
+	<div class="container bloc-md-md bloc-sm-sm bloc-sm bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-12 offset-lg-2 col-lg-8">
+				<h2 class="mg-md text-center app-list-subtitle btn-resize-mode">
+					测试中应用<br>
+				</h2>
+				<p class="text-center btn-resize-mode p-3-style">
+					以下应用已接近开发完成，除内测应用外，用户可下载TestFlight进行体验
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-9 END -->
+
+<!-- bloc-10 -->
+<div class="bloc l-bloc none" id="bloc-10">
+	<div class="container bloc-sm-lg bloc-no-padding">
+		<div class="row voffset">
+			<div class="col-lg-3 col-md-6 text-center bloc-0-padding-left col-sm-6 col-6">
+				<a href="amospoem.html"><img src="img/lazyload-ph.png" data-src="img/AmosPoem.webp" class="img-fluid mx-auto d-block img-frame-md img-icon-amosvoi-style lazyload" alt="icon_AmosElevation" width="245" height="245"></a>
+				<h3 class="mg-md tc-1644">
+					Amos诗词
+				</h3>
+				<p>
+					现代化的诗词阅读体验
+				</p><img src="img/lazyload-ph.png" data-src="img/TestFlight.webp" class="img-fluid mx-auto d-block appstore-buttton-style lazyload" alt="337 3379411_appstore-badge-app-store-logo-white" width="263" height="87">
+				<p>
+					即将上线
+				</p>
+			</div>
+			<div class="col-lg-3 col-md-6 text-center bloc-0-padding-left col-sm-6 col-6">
+				<a href="simple-amosvoice.html"><img src="img/lazyload-ph.png" data-src="img/AmosVoice.webp" class="img-fluid img-frame-md img-icon-amosvoi-style mx-auto d-block lazyload" alt="icon_AmosVoice" width="245" height="245"></a>
+				<h3 class="mg-md tc-1037">
+					Amos朗读者
+				</h3>
+				<p>
+					神经网络驱动的文字转语音
+				</p><img src="img/lazyload-ph.png" data-src="img/TestFlight.webp" class="img-fluid mx-auto d-block appstore-buttton-style lazyload" alt="337 3379411_appstore-badge-app-store-logo-white" width="263" height="87">
+				<p>
+					即将上线
+				</p>
+			</div>
+			<div class="col-lg-3 col-md-6 text-center bloc-0-padding-left col-sm-6 col-6">
+				<a href="amoschat.html"><img src="img/lazyload-ph.png" data-src="img/AmosChat.webp" class="img-fluid img-frame-md img-icon-amosvoi-style mx-auto d-block lazyload" alt="icon_AmosChat" width="245" height="245"></a>
+				<h3 class="mg-md tc-2242">
+					Amos助理
+				</h3>
+				<p>
+					让人工智能从概念到实用
+				</p>
+				<p>
+					即将上线
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-10 END -->
+
+<!-- bloc-11 -->
+<div class="bloc l-bloc" id="bloc-11">
+	<div class="container bloc-md-md bloc-sm-sm bloc-sm bloc-sm-lg">
+		<div class="row">
+			<div class="col-md-12 offset-lg-2 col-lg-8">
+				<h2 class="mg-md text-center app-list-subtitle btn-resize-mode">
+					实验性应用<br>
+				</h2>
+				<p class="text-center btn-resize-mode p-3-style">
+					工作室偶发的创意或者用来验证想法、技术的实验性质应用，暂无上架打算。<br>感兴趣的用户可以发邮件沟通询问，也可以在Github提出技术探讨。
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-11 END -->
+
+<!-- bloc-12 -->
+<div class="bloc l-bloc none" id="bloc-12">
+	<div class="container bloc-sm-lg bloc-no-padding">
+		<div class="row voffset">
+			<div class="col-lg-3 col-md-6 text-center bloc-0-padding-left col-sm-6 col-6">
+				<img src="img/lazyload-ph.png" data-src="img/AmosElevation.webp" class="img-fluid mx-auto d-block img-frame-md img-icon-amosvoi-style lazyload" alt="icon_AmosElevation" width="245" height="245">
+				<h3 class="mg-md tc-1644 app-title-exp">
+					Amos查海拔
+				</h3>
+				<p>
+					查询地图上任意点的海拔
+				</p>
+			</div>
+			<div class="col-lg-3 col-md-6 text-center bloc-0-padding-left col-sm-6 col-6">
+				<a href="amosreview.html"><img src="img/lazyload-ph.png" data-src="img/icon_AmosReviews.webp" class="img-fluid mx-auto d-block img-frame-md img-icon-amosvoi-style lazyload" alt="icon_AmosReviews" width="245" height="245"></a>
+				<h3 class="mg-md tc-7290 app-title-exp">
+					Amos评论集
+				</h3>
+				<p>
+					小组件查看AppStore的用户评论
+				</p>
+			</div>
+			<div class="col-lg-3 col-md-6 text-center bloc-0-padding-left col-sm-6 col-6">
+				<a href="./amostime/amostime.html"><img src="img/lazyload-ph.png" data-src="img/AmosScoreboard.webp" class="img-fluid mx-auto d-block img-frame-md img-icon-amosvoi-style lazyload" alt="icon_AmosTime" width="245" height="245"></a>
+				<h3 class="mg-md tc-4237 app-title-exp">
+					Amos记分板
+				</h3>
+				<p>
+					实时查看NBA赛程和比分
+				</p>
+			</div>
+			<div class="col-lg-3 col-md-6 text-center bloc-0-padding-left col-sm-6 col-6">
+				<img src="img/lazyload-ph.png" data-src="img/AmosMemory_light.webp" class="img-fluid mx-auto d-block img-frame-md img-icon-amosvoi-style lazyload" alt="icon_AmosTime" width="245" height="245">
+				<h3 class="mg-md tc-4237 app-title-exp">
+					Amos背单词
+				</h3>
+				<p>
+					真正的掌握每一个单词
+				</p>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-lg-3 col-md-6 text-center bloc-0-padding-left col-sm-6 col-6">
+				<img src="img/lazyload-ph.png" data-src="img/AmosTime2.webp" class="img-fluid mx-auto d-block img-frame-md img-icon-amosvoi-style lazyload" alt="icon_AmosElevation" width="245" height="245">
+				<h3 class="mg-md tc-1644 app-title-exp">
+					Amos时间志2
+				</h3>
+				<p>
+					最好用的时间管理应用正在进化
+				</p>
+			</div>
+			<div class="col-lg-3 col-md-6 text-center bloc-0-padding-left col-sm-6 col-6">
+				<img src="img/lazyload-ph.png" data-src="img/AmosShortcut.webp" class="img-fluid mx-auto d-block img-frame-md img-icon-amosvoi-style lazyload" alt="icon_AmosElevation" width="245" height="245">
+				<h3 class="mg-md tc-1644 app-title-exp">
+					Amos小组件
+				</h3>
+				<p>
+					小组件查看运动相关图表
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-12 END -->
 
 <!-- ScrollToTop Button -->
 <button aria-label="Scroll to top button" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/></svg></button>
@@ -418,7 +529,7 @@
 					关于
 				</h4><a href="index.html" class="a-btn a-block about-subtitle-style text-center text-lg-left text-md-left text-sm-left">团队</a><a href="#" class="a-btn a-block about-subtitle-style text-lg-left text-md-left text-sm-left text-center" data-scroll-speed="1000" onclick="scrollToTarget('#app-lists',this)">产品</a>
 			</div>
-			<div class="col-md-2 col-sm-3">
+			<div class="col-md-2 col-sm-3 pl-md-0">
 				<h4 class="mg-md text-sm-left text-center about-title-style">
 					条款
 				</h4><a href="amosgym-memberdeal.html" class="a-btn a-block about-subtitle-style" target="_blank">AK23会员协议</a><a href="amosgym-privacydeal.html" class="a-btn a-block about-subtitle-style">隐私条款</a>
@@ -428,17 +539,17 @@
 					联系我们
 				</h4>
 				<div class="row">
-					<div class="offset-sm-0 connect-social-icon-style col-4 col-sm-3">
+					<div class="offset-sm-0 connect-social-icon-style col-4 col-sm-3 col-lg-2">
 						<div class="text-center">
-							<a href="https://weibo.com/p/1005051211547013" target="_blank"><span class="fab fa-weibo icon-sm"></span></a>
+							<a href="https://www.xiaohongshu.com/user/profile/604e0e3c0000000001001333?xhsshare=CopyLink&appuid=604e0e3c0000000001001333&apptime=1730450557&share_id=b0eb0aaa1b5a4fffac956d2dc49f786c" target="_blank"><img src="img/lazyload-ph.png" data-src="img/Xiaohongshu.webp" class="img-fluid mx-auto d-block img-xiaohongs-style lazyload" alt="Xiaohongshu" width="20" height="20"></a>
 						</div>
 					</div>
-					<div class="offset-sm-0 connect-social-icon-style col-4 col-sm-3">
+					<div class="offset-sm-0 connect-social-icon-style col-4 col-sm-3 col-lg-2">
 						<div class="text-center">
-							<a href="https://www.zhihu.com/people/amos-9/answers/by_votes" target="_blank"><span class="icon-sm fab fa-zhihu"></span></a>
+							<a href="https://github.com/wyk111wyk" target="_blank"><span class="icon-sm fab fa-github"></span></a>
 						</div>
 					</div>
-					<div class="connect-social-icon-style col-4 col-sm-3">
+					<div class="connect-social-icon-style col-4 col-sm-3 col-lg-2">
 						<div class="text-center">
 							<a href="mailto:wyk111wyk@me.com"><span class="far fa-envelope icon-sm"></span></a>
 						</div>
@@ -450,9 +561,11 @@
 			<div class="col">
 				<div class="divider-h">
 				</div>
-				<p class="mx-auto d-block text-lg-center text-md-center text-sm-center text-center">
+				<p class="mx-auto d-block text-lg-center text-md-center text-sm-center text-center mb-lg-0 mb-0">
 					Copyright © 2021-2023 AmosStudio<br> <a href="https://beian.miit.gov.cn" target="_blank">浙ICP备 2022027986号</a>
 				</p>
+				<div><a align="center" href="\&quot;https://beian.mps.gov.cn/#/query/webSearch?code=33068102000965\&quot;" rel="\&quot;noreferrer\&quot;" target="\&quot;_blank\&quot;">浙公网安备 33068102000965</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -465,13 +578,13 @@
 
 
 <!-- Additional JS -->
-<script src="./js/jquery.min.js?1598"></script>
-<script src="./js/bootstrap.bundle.min.js?2272"></script>
-<script src="./js/blocs.min.js?1171"></script>
+<script src="./js/jquery.min.js?3299"></script>
+<script src="./js/bootstrap.bundle.min.js?5786"></script>
+<script src="./js/blocs.min.js?6229"></script>
 <script src="./js/lazysizes.min.js" defer></script>
-<script src="./js/jquery.scrollify.js?4503"></script>
-<script src="./js/blocsaddons-markdown.js?6134"></script>
-<script src="./js/marked.min.js?5414"></script><!-- Additional JS END -->
+<script src="./js/jquery.scrollify.js?6356"></script>
+<script src="./js/blocsaddons-markdown.js?5984"></script>
+<script src="./js/marked.min.js?8142"></script><!-- Additional JS END -->
 
 
 </body>
