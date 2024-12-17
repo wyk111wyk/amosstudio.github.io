@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://www.amosstudio.com.cn/</loc>
-	<lastmod>2024-11-05</lastmod>
+	<lastmod>2024-12-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -116,7 +116,7 @@
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amoscar/amoscar.html</loc>
-	<lastmod>2024-11-05</lastmod>
+	<lastmod>2024-12-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -166,7 +166,7 @@
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amostime/amostime.html</loc>
-	<lastmod>2024-11-05</lastmod>
+	<lastmod>2024-12-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -208,7 +208,7 @@
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosreview.html</loc>
-	<lastmod>2024-11-05</lastmod>
+	<lastmod>2024-12-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -230,7 +230,7 @@
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym.html</loc>
-	<lastmod>2024-11-05</lastmod>
+	<lastmod>2024-12-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -242,83 +242,39 @@
 	<image:title>文字Logo 大备份</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_2.jpg</image:loc>
+	<image:loc>https://www.amosstudio.com.cn/img/gym_17.webp</image:loc>
 	<image:title>slide 1</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_2.webp</image:loc>
-	<image:title>slide 1</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_5.jpg</image:loc>
-	<image:title>slide 2</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_5.webp</image:loc>
-	<image:title>slide 2</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_1.jpg</image:loc>
-	<image:title>slide 3</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_1.webp</image:loc>
-	<image:title>slide 3</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_18.jpg</image:loc>
-	<image:title>gym_18</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_18.webp</image:loc>
-	<image:title>gym_18</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_16.jpg</image:loc>
-	<image:title>gym_16</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/gym_16.webp</image:loc>
-	<image:title>gym_16</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_17.jpg</image:loc>
-	<image:title>gym_17</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_17.webp</image:loc>
-	<image:title>gym_17</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_14.jpg</image:loc>
-	<image:title>gym_14</image:title>
+	<image:title>slide 2</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/gym_14.webp</image:loc>
+	<image:title>slide 3</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/gym_11.webp</image:loc>
+	<image:title>gym_18</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/gym_5.webp</image:loc>
+	<image:title>gym_16</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/gym_4.webp</image:loc>
+	<image:title>gym_17</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/gym_2.webp</image:loc>
 	<image:title>gym_14</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_13.jpg</image:loc>
+	<image:loc>https://www.amosstudio.com.cn/img/gym_1.webp</image:loc>
 	<image:title>gym_13</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/gym_13.webp</image:loc>
-	<image:title>gym_13</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_11.jpg</image:loc>
-	<image:title>gym_11</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_11.webp</image:loc>
-	<image:title>gym_11</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_4.jpg</image:loc>
-	<image:title>gym_4</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/gym_4.webp</image:loc>
 	<image:title>gym_4</image:title>
 	</image:image>
 	<image:image>
@@ -348,99 +304,83 @@
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym-letter.html</loc>
-	<lastmod>2024-11-05</lastmod>
+	<lastmod>2024-12-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym-banner01.html</loc>
-	<lastmod>2024-11-05</lastmod>
+	<lastmod>2024-12-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym-banner02.html</loc>
-	<lastmod>2024-11-05</lastmod>
+	<lastmod>2024-12-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym-banner03.html</loc>
-	<lastmod>2024-11-05</lastmod>
+	<lastmod>2024-12-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym-banner04.html</loc>
-	<lastmod>2024-11-05</lastmod>
+	<lastmod>2024-12-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym-banner05.html</loc>
-	<lastmod>2024-11-05</lastmod>
+	<lastmod>2024-12-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym-actiondeal.html</loc>
-	<lastmod>2024-11-05</lastmod>
+	<lastmod>2024-12-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym-memberdeal.html</loc>
-	<lastmod>2024-11-05</lastmod>
+	<lastmod>2024-12-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym-privacydeal.html</loc>
-	<lastmod>2024-11-05</lastmod>
+	<lastmod>2024-12-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/simple-amosvoice.html</loc>
-	<lastmod>2024-11-05</lastmod>
+	<lastmod>2024-12-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice-SS1.jpg</image:loc>
-	<image:title>AmosVoice SS1</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice-SS1.webp</image:loc>
 	<image:title>AmosVoice SS1</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice-SS2.jpg</image:loc>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice-SS4.webp</image:loc>
 	<image:title>AmosVoice SS2</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice-SS2.webp</image:loc>
-	<image:title>AmosVoice SS2</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice-SS3.jpg</image:loc>
-	<image:title>AmosVoice SS3</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice-SS3.webp</image:loc>
 	<image:title>AmosVoice SS3</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice-SS4.jpg</image:loc>
-	<image:title>AmosVoice SS4</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice-SS4.webp</image:loc>
+	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice-SS2.webp</image:loc>
 	<image:title>AmosVoice SS4</image:title>
 	</image:image>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amospoem.html</loc>
-	<lastmod>2024-11-05</lastmod>
+	<lastmod>2024-12-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -486,7 +426,7 @@
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amoschat.html</loc>
-	<lastmod>2024-11-05</lastmod>
+	<lastmod>2024-12-17</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -527,34 +467,6 @@
 	</image:image>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_01备份%205.webp</image:loc>
-	<image:title>placeholder image-sq</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_iPad2.webp</image:loc>
-	<image:title>placeholder image-sq</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_iPad4.webp</image:loc>
-	<image:title>placeholder image-sq</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_iPad3.webp</image:loc>
-	<image:title>placeholder image-sq</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_iPad1.webp</image:loc>
-	<image:title>placeholder image-sq</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_mac2.webp</image:loc>
-	<image:title>placeholder image-sq</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_mac3.webp</image:loc>
-	<image:title>placeholder image-sq</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/AmosChat_mac1.webp</image:loc>
 	<image:title>placeholder image-sq</image:title>
 	</image:image>
 </url>
