@@ -27,18 +27,6 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 .preloader-complete{animation-delay:0.1s;}
 @keyframes preloader-fade {0% {opacity: 1;visibility: visible;}100% {opacity: 0;visibility: hidden;}}
 
-/* = Web Fonts
--------------------------------------------------------------- */
-
-@font-face {
-	font-family:'Abel-Regular';
-	src: url('./fonts/Abel-Regular/Abel-Regular.ttf');
-	src: url('./fonts/Abel-Regular/Abel-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-	font-display:swap;
-}
-
 /* = Blocs
 -------------------------------------------------------------- */
 

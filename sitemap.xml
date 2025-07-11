@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://www.amosstudio.com.cn/</loc>
-	<lastmod>2024-12-17</lastmod>
+	<lastmod>2025-07-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -78,12 +78,12 @@
 	<image:title>icon_AmosElevation</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/TestFlight.webp</image:loc>
-	<image:title>337 3379411_appstore-badge-app-store-logo-white</image:title>
-	</image:image>
-	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/AmosVoice.webp</image:loc>
 	<image:title>icon_AmosVoice</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://www.amosstudio.com.cn/img/TestFlight.webp</image:loc>
+	<image:title>337 3379411_appstore-badge-app-store-logo-white</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://www.amosstudio.com.cn/img/AmosChat.webp</image:loc>
@@ -116,7 +116,7 @@
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amoscar/amoscar.html</loc>
-	<lastmod>2024-12-17</lastmod>
+	<lastmod>2025-07-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -166,7 +166,7 @@
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amostime/amostime.html</loc>
-	<lastmod>2024-12-17</lastmod>
+	<lastmod>2025-07-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -208,7 +208,7 @@
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosreview.html</loc>
-	<lastmod>2024-12-17</lastmod>
+	<lastmod>2025-07-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -230,11 +230,11 @@
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym.html</loc>
-	<lastmod>2024-12-17</lastmod>
+	<lastmod>2025-07-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
-	<image:loc>https://www.amosstudio.com.cn/img/amosgym-1.webp</image:loc>
+	<image:loc>https://www.amosstudio.com.cn/img/iphone%2003.webp</image:loc>
 	<image:title>iOS Hero</image:title>
 	</image:image>
 	<image:image>
@@ -304,61 +304,61 @@
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym-letter.html</loc>
-	<lastmod>2024-12-17</lastmod>
+	<lastmod>2025-07-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym-banner01.html</loc>
-	<lastmod>2024-12-17</lastmod>
+	<lastmod>2025-07-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym-banner02.html</loc>
-	<lastmod>2024-12-17</lastmod>
+	<lastmod>2025-07-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym-banner03.html</loc>
-	<lastmod>2024-12-17</lastmod>
+	<lastmod>2025-07-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym-banner04.html</loc>
-	<lastmod>2024-12-17</lastmod>
+	<lastmod>2025-07-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym/amosgym-banner05.html</loc>
-	<lastmod>2024-12-17</lastmod>
+	<lastmod>2025-07-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym-actiondeal.html</loc>
-	<lastmod>2024-12-17</lastmod>
+	<lastmod>2025-07-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym-memberdeal.html</loc>
-	<lastmod>2024-12-17</lastmod>
+	<lastmod>2025-07-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amosgym-privacydeal.html</loc>
-	<lastmod>2024-12-17</lastmod>
+	<lastmod>2025-07-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/simple-amosvoice.html</loc>
-	<lastmod>2024-12-17</lastmod>
+	<lastmod>2025-07-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -380,7 +380,7 @@
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amospoem.html</loc>
-	<lastmod>2024-12-17</lastmod>
+	<lastmod>2025-07-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -426,7 +426,7 @@
 </url>
 <url>
 	<loc>https://www.amosstudio.com.cn/amoschat.html</loc>
-	<lastmod>2024-12-17</lastmod>
+	<lastmod>2025-07-11</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
