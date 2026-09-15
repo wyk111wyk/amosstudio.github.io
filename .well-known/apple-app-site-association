@@ -9,15 +9,6 @@
                         "comment": "AmosGym"
                     }
                 ]
-            },
-            {
-                "appID": "D3FXKEY64K.com.AKSocial.AmosTesla001",
-                "components": [
-                    {
-                        "/": "/amoscar/*",
-                        "comment": "AmosCar For Tesla"
-                    }
-                ]
             }
         ]
     }
