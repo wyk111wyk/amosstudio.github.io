@@ -11,7 +11,7 @@
                 ]
             },
             {
-                "appID": "D3FXKEY64K.com.amos.AmosConsole",
+                "appID": "D3FXKEY64K.com.AKSocialLab.AmosMemoryBuilder",
                 "components": [
                     {
                         "/": "/amosconsole/*",
