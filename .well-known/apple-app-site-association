@@ -9,6 +9,15 @@
                         "comment": "AmosGym"
                     }
                 ]
+            },
+            {
+                "appID": "D3FXKEY64K.com.amos.AmosConsole",
+                "components": [
+                    {
+                        "/": "/amosconsole/*",
+                        "comment": "AmosConsole"
+                    }
+                ]
             }
         ]
     }
